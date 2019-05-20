@@ -1,0 +1,43 @@
+! Title:        GFWlist自定義名單
+! Author:       Cing
+! Version:      2016.01
+! Expires:      1h
+! Contact:      https://github.com/dupontjoy/customization/Rules
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+||digitaltrends.com^
+||wikipedia.org^
+||googlecode.com^
+||feedly.com^
+||app.box.com^
+||kiwi6.com^
+||dailymail.co.uk^
+||yyets.com^
+||themehybrid.com^
+||deviantart.com^
+||playpcesor.com^
+||ortheme.com^
+||designspiration.net^
+||translate.google.com.hk^
+||google.com^
+||cdn.mozilla.net^
+||clearbags.com^
+||mm-cg.com^
+||btspread.com^
+||amazon.co.uk^
+||tumblr.com^
+||github.io^
+||wooaii.com^
+||fasttech.com^
+||fasttechcdn.com^
+||everbuying.com^
+||everbuying.net^
+||mediafire.com^
+||faout.com^
+||focalprice.com^
+||homedepot.com^
+||coolicool.com^
+||amazonaws.com^
+||paypal.com^
+||answers.yahoo.com^
+||sto.cc^

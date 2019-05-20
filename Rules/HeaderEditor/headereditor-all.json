@@ -1,0 +1,777 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "通用论坛简版>>完整版4",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.*)/archive/index.php/t-(.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://$1/showthread.php?t=$2",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "通用论坛简版>>完整版3",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.+)/archiver/\\?tid-(\\d+).html",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://$1/thread-$2-1-1.html",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "通用论坛简版>>完整版2",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.*)/archiver/tid-(.*)-page-.*.html",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://$1/thread-$2-1.html",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "通用论坛简版>>完整版1",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.+)/archiver/tid-(\\d+).html",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://$1/viewthread.php?tid=$2",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "sourceforge下载 >> 镜像站点",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/sourceforge\\.net\\/projects\\/(((\\w)\\w).*)\\/files\\/(.*)\\/download",
+			"exclude": "^https?:\\/\\/sourceforge\\.net\\/projects\\/(?:[^\\/]+)\\/files\\/latest\\/download",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://master.dl.sourceforge.net/project/$1/$4",
+			"_exclude": {},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "般若文海article >> books",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/book\\.bfnn\\.org\\/article([\\d]?\\/.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://book.bfnn.org/books$1",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "google搜索国家域名 >> google.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.google\\.(?:co|com)\\.(?:hk|jp|sg|kr)\\/(?:s\\?|search\\?|webhp\\?|.*\\&safe=strict)(.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.google.com/search?$1",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "FT中文网全文",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.ftchinese\\.com\\/story\\/(\\d+)(.*?)$",
+			"exclude": "^https?:\\/\\/www\\.ftchinese\\.com\\/story\\/(\\d+)\\/en",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://www.ftchinese.com/story/$1?full=y",
+			"_exclude": {},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "凤凰网 只显示首图修正",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.*)\\.ifeng\\.com\\/a\\/(ydzx|)\\/(.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://$1.ifeng.com/a/$3",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "凤凰网 图片修正",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.*)\\.ifeng\\.com\\/(.+)?shtml.+?(#p=.)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://$1.ifeng.com/$2shtml$3",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "观察者网全文",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^(https?:\\/\\/www\\.guancha\\.cn\\/.*\\_\\d+)\\.shtml$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1_s.shtml",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "google fonts >> 极客族",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/fonts\\.googleapis\\.com\\/(.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://fonts.geekzu.org/$1",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "google ajax >> 极客族",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/ajax\\.googleapis\\.com\\/(.*)$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://gapis.geekzu.org/ajax/$1",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "贴吧 域名重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.+).tieba.com/(.*)",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://tieba.baidu.com/$2",
+			"group": "未分组"
+		}
+	],
+	"sendHeader": [
+		{
+			"name": "bing默认英文",
+			"ruleType": "modifySendHeader",
+			"pattern": "^https?:\\/\\/.*\\.bing\\.com.*",
+			"exclude": "",
+			"action": {
+				"name": "accept-language",
+				"value": "en-US"
+			},
+			"matchType": "regexp",
+			"isFunction": false,
+			"enable": true,
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "economist免订阅",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*economist\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.google.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "wsj免订阅",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.wsj\\.(net|com).*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.facebook.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "ft免订阅",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.ft\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.google.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "sina图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.sinaimg\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://blog.sina.com.cn/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "isnowfy图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.isnowfy\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "微信图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.(qpic|qlogo)\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "waylee图片反盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.waylee\\.net.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "baidu图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*(bdimg|bdstatic|(.*(img|photo).*\\.baidu))\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.baidu.com"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "QQ图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*photo\\.store\\.qq\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "tianya图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.(laibafile|tianya|tianyablog)\\.(cn|com).*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://www.tianya.cn/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "网易图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://www.163.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "chiphell图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*chiphell\\.com\\/data\\/attachment\\/.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.chiphell.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "pconline图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.pconline\\.com\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://www.pconline.com.cn/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "pixiv图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.pixiv\\.net.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.pixiv.net/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "poco图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.poco\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "autoimg图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.autoimg\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://club.autohome.com.cn/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "douban图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.douban.*\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://www.douban.com"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "jiandan图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*jdstatic\\.tankr\\.net.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://jandan.net/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "imanhua图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.mangafiles\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://www.imanhua.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "tudou图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.tudou\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://www.tudou.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "sina图片盗链-2",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*photo\\.sina\\.com\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "zol图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.(zol|zol-img)\\.com\\.cn.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "postimg图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.(postimg|postimage)\\.org.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "yahoo图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*blogs\\.yahoo\\.co\\.jp.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "cnbeta图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*img\\.cnbeta\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "imgur图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.imgur\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "quora图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.quora\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "tumblr图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.tumblr\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "wuyou图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.wuyou\\.net.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "178图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*img.*\\.178\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "statista免订阅",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.(statista|statcdn)\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.google.com"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "gtimg图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\gtimg\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "数字尾巴图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.dgtle\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "seebug图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.seebug\\.org.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://paper.seebug.org"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "机器之心图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.jiqizhixin\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://image.jiqizhixin.com"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "知乎图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.zhimg\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "inoreader",
+			"ruleType": "modifySendHeader",
+			"matchType": "all",
+			"pattern": "^https?:\\/\\/.*\\.inoreader\\.com.*",
+			"exclude": "",
+			"isFunction": true,
+			"code": "for (let a in val) {\n\tif (val[a].name.toLowerCase() === 'referer') {\n                if (val[a].value.includes('inoreader.')) {\n\t\t     val.splice(a,1);\n\t\t     break;\n\t        }\n\t}\n}",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "cnbeta图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.cnbetacdn\\.com.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.cnbeta.com/"
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "elysii图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/elysii\\.net.*",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			},
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "sunzhongwei图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "sunzhongwei.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			}
+		},
+		{
+			"enable": true,
+			"name": "windows10.pro图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "windows10.pro",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			}
+		}
+	],
+	"receiveHeader": [
+		{
+			"enable": true,
+			"name": "网易图片不显示",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		}
+	]
+}

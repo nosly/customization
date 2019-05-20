@@ -1,0 +1,231 @@
+[Adblock Plus 2.0]
+! Title:        Cing 悬浮及色情图片过滤规则
+! Description:  過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康!）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
+! Author:       Cing
+! License:      Creative Commons BY-NC-SA
+! Version:      2019
+! Expires:      1h
+! Contact:      https://github.com/dupontjoy/customization/Rules
+!-------------------------------------------------------------------------------------!
+
+! 杂项
+@@*/vmind.qqvideo.tc.qq.com/$object-subrequest
+@@||atm.youku.com/v$object-subrequest
+@@||sinaimg.cn^$domain=acg18.us
+@@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
+@@|http://v.aty.sohu.com/v$object-subrequest
+||toushibao.com/
+
+！云之家
+www.yunzhijia.com##.transfer_files
+www.yunzhijia.com###\35 b10fdabe4b09080ad0c66af-XT-10001
+www.yunzhijia.com##.pubacc-fold
+www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-10000
+www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-d69723d2-f788-40a5-bcc4-9d3d165bcf60
+www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-f0055c19-7c70-4b93-83bb-390a4652ba5a
+
+! 乐视
+|http://*/letv-gug/
+
+! 1688
+detail.1688.com##.sufei-dialog-jquery.sufei-dialog
+
+! 网易
+163.com##.clearfix.bobo-wrap
+comment.v.163.com##.wrapper.top-banner
+mail.163.com##.gWel-tabs
+mail.163.com##[title="一元夺宝"]
+mail.163.com##[title="应用中心"]
+open.163.com###app_download_recommend
+open.163.com##.appdown
+
+! 18H禁
+18h.mm-cg.com##.UT_thread
+18h.mm-cg.com##UL
+||18h.mm-cg.com/adcg/*.gif$image
+
+! 速卖通
+aliexpress.com##.ui-mask
+aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
+
+! 百度
+pan.baidu.com##.super-member-tip
+pan.baidu.com##.uuuLp2v
+pan.baidu.com##.bar > .x-button-box > .nd-button-build.g-button
+pan.baidu.com##.bar > .x-button-box > a.g-button:nth-of-type(3)
+pan.baidu.com##a.g-button:nth-of-type(4)
+pan.baidu.com##.JS-nativeupload-tip.yt1MQp.global-clearfix
+pan.baidu.com##.yeEDsO
+zhidao.baidu.com##.wrapper
+zhidao.baidu.com##.ui-draggable.sign-in-dialog.ui-front.ui-widget-content.ui-widget.ui-dialog
+pan.baidu.com###dialog1
+pan.baidu.com##.module-canvas
+zhidao.baidu.com###ik-dlg-106
+zhidao.baidu.com##.ui-front.ui-widget-overlay
+baike.baidu.com###J-declare
+baike.baidu.com###J-declare-wrap
+baike.baidu.com###fc_guess_like
+baike.baidu.com##.bdsharebuttonbox.side-share
+baike.baidu.com##.userbar_mall
+baike.com###newsfix-on
+
+! 卡饭
+bbs.kafan.cn###autopbn
+bbs.kafan.cn###scrolltop
+bbs.kafan.cn##.bm_h
+bbs.kafan.cn##.ptn.xg2
+bbs.kafan.cn##SPAN[style="float:left;margin-right:5px"]
+
+! 天涯
+focus.tianya.cn##.custom_css1211105325.cf.space.tui-section.tui-list-box > .cf.bd
+bbs.tianya.cn###dsvips60447 > .ds_seat_foot > .btnOpen
+bbs.tianya.cn###host-stocks-box
+bbs.tianya.cn###niuren_ifm
+
+! bobo网
+bobo.com##.mod-follow
+
+! cnbeta资讯
+cnbeta.com##.cbv810
+cnbeta.com###cb_share
+cnbeta.com##.mask-box
+cnbeta.com##.mask-layer
+cnbeta.com##div[style*="display:block !important;"][style*="z-index:99999;"]
+cnbeta.com##div[style*="DXImageTransform"]
+cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
+cnbeta.com###CbADsArticle > .adsbygoogle
+cnbeta.com###cbhahaha
+
+! CNN
+cnn.com##.user-msg
+
+! deviantart
+deviantart.com###block-notice > .block-notice
+
+! 豆瓣
+douban.com###doubanapp-tip
+duowan.com###mbbs-qrcode
+
+! 经济学人
+economist.com##.newsletter-form--inline.newsletter-form
+economist.com##.timekeeper-bubble
+economist.com##.fe-blogs__top-ad-wrapper-firstload.fe-blogs__top-ad-wrapper
+economist.com##.exit-pop
+economist.com##.ribbon__header
+economist.com##.ribbon__body
+
+! FT
+ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
+ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-message
+ft.com##.visible.n-header__marketing-promo
+ftchinese.com###story_main_mpu
+
+! gearbest
+gearbest.com###email_subscribe
+gearbest.com###mask
+greasyfork.org###script-show-info-ad
+
+! 果壳
+guokr.com##.tooltip-new
+
+! HBR
+hbr.org##.backdrop-darker > .row
+
+! 华为
+huawei.com##.ReadPolicy.browsehappy
+
+! 虎牙
+huya.com###mbbs-qrcode
+huya.com###v-alist-tip
+huya.com##.relate_right
+huya.com##ASIDE
+
+! 异次元
+iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 20px auto"]
+iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 24px auto"]
+
+! 爱奇艺
+iqiyi.com###goosBtn
+iqiyi.com###widget-clientdownload
+iqiyi.com###widget-refer
+iqiyi.com##.a1.jilu
+iqiyi.com##.act_shares
+iqiyi.com##.danmu-main.fl
+iqiyi.com##.func_download
+iqiyi.com##.iphoneLook
+iqiyi.com##.vip_rec_pop
+iqiyi.com##[data-scrollname="vipbuy"]
+iqiyi.com##[data-widget-appdown="playpage"]
+
+! 京东
+jd.com##.side__ad.side__ad-left
+jd.com##.side__ad.side__ad-right
+
+! 益书网
+kindbook.cn###comiis_kx_div
+kindbook.cn###dreambred_portal_area_a_10
+kindbook.cn###ip_notice
+kindbook.cn##.csu_wxnav
+kindbook.cn##.itopad
+kindbook.cn##.kefuqq-box
+kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng2"]
+
+! Mobilefun
+mobilefun.co.uk###fancybox-outer
+mobilefun.co.uk###fancybox-overlay
+mobilefun.co.uk###geoip-popup
+mobilefun.co.uk##.modal-backdrop.in
+
+! nautil
+nautil.us###adpayload
+nautil.us###offer
+
+! 睿派克
+repaik.com##.a_cn
+
+! statista
+statista.com###raPopup01
+statista.com###statisticSlideIn
+statista.com###caRequestPopup
+statista.com##.modal-dialog--caRequest.modal-dialog
+statista.com###caRequestModal > .in.fade.modal-backdrop
+statista.com##.delay300.fadeInUp.animated.tooltip-bottom.tooltip-wave.tooltip-function-info
+statista.com##.modal-dialog--caRequest.modal-dialog
+
+
+! 天涯
+tianya.cn###js-bc-shang
+tianya.cn##.scroll-btn
+
+! 百度
+tieba.baidu.com###forum_recommend
+tieba.baidu.com##.d_sign_split
+tieba.baidu.com##.thread_recommend
+tieba.baidu.com##.thread_recommend_ps.thread-recommend-ps
+
+! 优酷
+v.youku.com###module-interact
+youku.com###qrcode-container
+
+! 人人都是产品经理
+woshipm.com##.tips-box.font16.mar-b20
+
+! 字幕组
+zmz2017.com##.ad1.ad:nth-of-type(5)
+zmz2017.com##.ad1.ad:nth-of-type(5) > div
+zmz2017.com##.ad1.ad:nth-of-type(7)
+zmz2017.com##.area-right > .adsbygoogle:nth-of-type(1)
+zmz2017.com##.area-right > div:nth-of-type(1) > .adsbygoogle
+zmz2017.com##.qdad.fl > div > .adsbygoogle
+zmz2017.com##.qdad.fr > .adsbygoogle
+zmz2017.com##.resource-list > .adsbygoogle
+zmz2017.com##.top-box > div:nth-of-type(3)
+zmz2017.com##.top-box > div:nth-of-type(5)
+zmz2017.com##body > div:nth-of-type(5)
+zmz2017.com##body > div:nth-of-type(6)
+zmz2017.com##div:nth-of-type(4) > .adsbygoogle
+www.zimuzu.tv###help
+
+! Wish
+www.wish.com###new-login-modal
+www.wish.com###login-modal-overlay
