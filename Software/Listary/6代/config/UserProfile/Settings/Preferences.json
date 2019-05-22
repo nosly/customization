@@ -10,9 +10,16 @@
       "FileDialog": {
         "EnableMouseMiddleClick": false
       },
+      "FolderDialog": {},
+      "Desktop": {},
       "TotalCommander": {
         "EnableMouseMiddleClick": false
-      }
+      },
+      "XYplorer": {},
+      "Bandizip": {},
+      "AutoCAD": {},
+      "xplorer2": {},
+      "FreeCommander": {}
     },
     "PathConfigs": {}
   },
