@@ -4,7 +4,7 @@
 ! Version:      2019
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
-!---------------------------------------------------------------------------------------!
+!------------------------------------------------------------------!
 ||garmin.com
 ||gitbooks.io
 ||w3resource.com
@@ -13,7 +13,6 @@
 ||walmart.com
 ||textalyser.net
 ||sconverter.com
-||bookfere.com
 ||sunsky-online.com
 ||compressor.io
 ||miniinthebox.com
@@ -36,7 +35,6 @@
 ||staticbg.com
 ||finance.sina.com.cn
 ||ftchinese.com
-||wildfire.ai
 ||fruithosted.net
 ||gstatic.com
 ||disqus.com
@@ -58,14 +56,12 @@
 ||github.com
 ||wallhaven.cc
 ||statista.com
-||ft.com
+||.ft.com
 ||dspncdn.com
 ||designspiration.net
 ||*amazon.co*
 ||githubusercontent.com
-||adblockplus.org
 ||alcatelonetouch.com
-||amazonaws.com
 ||angiefans.com
 ||bandwagonhost.com
 ||bandwidthplace.com
@@ -126,9 +122,7 @@
 ||sourceforge.net
 ||staticpmrk.com
 ||sunroadtech.com
-||t.co
 ||terapeak.com
-||trib.al
 ||thisav.com
 ||tumblr.com
 ||twimg.com
@@ -142,7 +136,6 @@
 ||zimuzu.tv
 ||zkcdn.net
 ||consumer.huawei.com
-||sunsky-online.com
 ||anki.com
 ||listary.com
 ||5sing.kugou.com
@@ -150,7 +143,6 @@
 ||nautil.us
 ||cellzmate.com
 ||bitdefender.com
-||mobilefun.co.uk
 ||etradesupply.com
 ||gearbest.com
 ||books.google.com
