@@ -26,7 +26,7 @@
 ||lefux.com
 ||geekbuying.com
 ||.dx.com
-||cfos.de
+||avbebe.com
 ||cosx.org
 ||hbr.org
 ||akamaized.net
@@ -37,6 +37,7 @@
 ||finance.sina.com.cn
 ||ftchinese.com
 ||wildfire.ai
+||fruithosted.net
 ||gstatic.com
 ||disqus.com
 ||cjkis.me
