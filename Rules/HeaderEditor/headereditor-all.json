@@ -135,7 +135,7 @@
 			"group": "未分组"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "google fonts >> 极客族",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -147,7 +147,7 @@
 			"group": "未分组"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "google ajax >> 极客族",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -168,6 +168,19 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://tieba.baidu.com/$2",
+			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "Youtube Version 2加载全部视频",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.youtube\\.com\\/watch\\?v=(.*)$",
+			"exclude": "^https?:\\/\\/www\\.youtube\\.com\\/watch\\?v=(.*)&version=2",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.youtube.com/watch?v=$1&version=2",
+			"_exclude": {},
 			"group": "未分组"
 		}
 	],
@@ -756,15 +769,29 @@
 				"name": "referer",
 				"value": ""
 			}
+		},
+		{
+			"enable": true,
+			"name": "OK资源网m3u8格式播放",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "bobo.okokbo.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "Access-Control-Allow-Origin",
+				"value": "http://okzyzy.com/"
+			}
 		}
 	],
 	"receiveHeader": [
 		{
 			"enable": true,
-			"name": "网易图片不显示",
+			"name": "修复网易图片不显示问题",
 			"ruleType": "modifyReceiveHeader",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/.*",
+			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
 			"exclude": "",
 			"group": "未分组",
 			"isFunction": false,
