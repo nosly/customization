@@ -31,6 +31,7 @@ user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
+user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 
 
 //*==========下载相关==========*//
@@ -44,10 +45,6 @@ user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程�
 user_pref("network.trr.bootstrapAddress", "1.0.0.1");//开启DoH
 user_pref("network.trr.custom_uri", "https://dns.google.com/experimental");//备用DNS
 user_pref("network.security.esni.enabled", true);
-
-//缓存
-user_pref("browser.cache.disk.enable", false);//停止Firefox将缓存文件存放到硬盘
-user_pref("browser.cache.memory.capacity", -1);//动态地分配缓存容量
 
 //功能去除
 user_pref("signon.rememberSignons", false); //关闭自带的保存密码功能
@@ -78,7 +75,6 @@ user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不�
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("datareporting.healthreport.uploadEnabled", false);//允许发送技术信息及交互数据(否)
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
@@ -87,7 +83,7 @@ user_pref("network.IDN_show_punycode", true);//避免钓鱼
 //*==========Firefox设置==========*//
 //书签相关
 user_pref("browser.bookmarks.autoExportHTML", true);//关闭Firefox时自动生成HTML书签备份
-user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
+user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
 //平滑滚动参数
@@ -106,7 +102,6 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); //允许F
 
 
 //开启流媒体API
-user_pref("javascript.options.streams", true); 
 user_pref("dom.streams.enabled", true); 
 
 
@@ -125,7 +120,7 @@ user_pref("browser.sessionstore.interval", 3600000);//防止向SSD写入大量�
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"http://www.ideamsg.com\",\"title\":\"灵感日报\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.jianshu.com/\",\"title\":\"简书\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"},{\"url\":\"http://www.pingwest.com/\",\"title\":\"品玩\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"http://www.ideamsg.com\",\"title\":\"灵感日报\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
