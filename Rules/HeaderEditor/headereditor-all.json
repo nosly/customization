@@ -176,10 +176,10 @@
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/www\\.youtube\\.com\\/watch\\?v=(.*)$",
-			"exclude": "^https?:\\/\\/www\\.youtube\\.com\\/watch\\?v=(.*)&version=2",
+			"exclude": "^https?:\\/\\/www\\.youtube\\.com\\/watch\\?v=(.*)&version=2&gl=CA",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://www.youtube.com/watch?v=$1&version=2",
+			"to": "https://www.youtube.com/watch?v=$1&version=2&gl=CA",
 			"_exclude": {},
 			"group": "未分组"
 		}
