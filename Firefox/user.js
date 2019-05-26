@@ -1,4 +1,4 @@
-//2019.05.16
+//2019.05.25
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -45,6 +45,7 @@ user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程�
 user_pref("network.trr.bootstrapAddress", "1.0.0.1");//开启DoH
 user_pref("network.trr.custom_uri", "https://dns.google.com/experimental");//备用DNS
 user_pref("network.security.esni.enabled", true);
+
 
 //功能去除
 user_pref("signon.rememberSignons", false); //关闭自带的保存密码功能
