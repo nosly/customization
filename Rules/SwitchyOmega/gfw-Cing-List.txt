@@ -71,7 +71,7 @@
 ||bing.com
 ||bluedio.com
 ||mozilla.org
-||cdn.mozilla.net
+||mozilla.net
 ||cdn.pocket-lint.com
 ||economist.com
 ||chinavasion.com
