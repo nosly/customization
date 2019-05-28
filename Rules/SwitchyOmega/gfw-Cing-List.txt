@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
+||invidio.us
 ||garmin.com
 ||gitbooks.io
 ||w3resource.com
