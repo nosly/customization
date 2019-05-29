@@ -87,19 +87,6 @@
 		},
 		{
 			"enable": true,
-			"name": "FT中文网全文",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/www\\.ftchinese\\.com\\/story\\/(\\d+)(.*?)$",
-			"exclude": "^https?:\\/\\/www\\.ftchinese\\.com\\/story\\/(\\d+)\\/en",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "http://www.ftchinese.com/story/$1?full=y",
-			"_exclude": {},
-			"group": "未分组"
-		},
-		{
-			"enable": true,
 			"name": "凤凰网 只显示首图修正",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -135,7 +122,7 @@
 			"group": "未分组"
 		},
 		{
-			"enable": false,
+			"enable": true,
 			"name": "google fonts >> 极客族",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -147,7 +134,7 @@
 			"group": "未分组"
 		},
 		{
-			"enable": false,
+			"enable": true,
 			"name": "google ajax >> 极客族",
 			"ruleType": "redirect",
 			"matchType": "regexp",
