@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1559119767036,
+  "when": 1559266316216,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -12,7 +12,7 @@
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "deleteCookies": true,
-    "deleteUnusedSessionCookies": true,
+    "deleteUnusedSessionCookies": false,
     "deleteUnusedSessionCookiesAfter": 1440,
     "deleteLocalStorage": true,
     "displayTextSize": "14px",
@@ -26,17 +26,8 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "processReferer": false,
-    "selectedHostsFiles": [
-      "malware-0",
-      "malware-1",
-      "dpollock-0",
-      "hphosts",
-      "mvps-0",
-      "plowe-0"
-    ],
-    "selectedRecipeFiles": [
-      "recipes_en-0"
-    ],
+    "selectedHostsFiles": [],
+    "selectedRecipeFiles": [],
     "userHosts": {
       "enabled": false,
       "content": ""
@@ -301,6 +292,8 @@
     "bbc.com bbci.co.uk * allow",
     "bd-film.cc 7384tv.com * allow",
     "bdimg.com bdstatic.com * allow",
+    "bestbuy.com bbystatic.com * allow",
+    "bestbuy.com demdex.net * allow",
     "bilibili.com s2.hdslb.com script allow",
     "bimibimi.cc aikcq.cn * allow",
     "bitwarden.com bitwarden.com cookie allow",
