@@ -1,12 +1,12 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1559266316216,
+  "when": 1559370612895,
   "settings": {
     "alwaysDetachLogger": false,
-    "autoUpdate": true,
+    "autoUpdate": false,
     "clearBrowserCache": true,
-    "clearBrowserCacheAfter": 240,
+    "clearBrowserCacheAfter": 1440,
     "cloudStorageEnabled": false,
     "collapseBlacklisted": true,
     "collapseBlocked": true,
@@ -399,6 +399,7 @@
     "ftchinese.com bokecc.com script allow",
     "gaode.com amap.com script allow",
     "gaode.com vdata.amap.com xhr allow",
+    "gaoding.com dancf.com * allow",
     "gaoqing.la static.duoshuo.com script allow",
     "garmin.com garmincdn.com * allow",
     "gcores.com taptap.com * allow",
