@@ -1,4 +1,4 @@
-//2019.05.25
+//2019.06.03
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -32,6 +32,7 @@ user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
+user_pref("browser.tabs.unloadOnLowMemory", false);//低内存时不自动卸载标签
 
 
 //*==========下载相关==========*//
@@ -42,8 +43,6 @@ user_pref("network.http.max-persistent-connections-per-server", 10);//多线程�
 user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程下载增大连接数
 
 //*==========网络协议问题==========*//
-user_pref("network.trr.bootstrapAddress", "1.0.0.1");//开启DoH
-user_pref("network.trr.custom_uri", "https://dns.google.com/experimental");//备用DNS
 user_pref("network.security.esni.enabled", true);
 
 
@@ -79,11 +78,11 @@ user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 
 
 //*==========Firefox设置==========*//
 //书签相关
-user_pref("browser.bookmarks.autoExportHTML", true);//关闭Firefox时自动生成HTML书签备份
 user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
