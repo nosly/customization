@@ -50,19 +50,6 @@
 		},
 		{
 			"enable": true,
-			"name": "sourceforge下载 >> 镜像站点",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/sourceforge\\.net\\/projects\\/(((\\w)\\w).*)\\/files\\/(.*)\\/download",
-			"exclude": "^https?:\\/\\/sourceforge\\.net\\/projects\\/(?:[^\\/]+)\\/files\\/latest\\/download",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "http://master.dl.sourceforge.net/project/$1/$4",
-			"_exclude": {},
-			"group": "未分组"
-		},
-		{
-			"enable": true,
 			"name": "般若文海article >> books",
 			"ruleType": "redirect",
 			"matchType": "regexp",
