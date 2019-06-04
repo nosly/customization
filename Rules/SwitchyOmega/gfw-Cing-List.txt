@@ -7,6 +7,7 @@
 !------------------------------------------------------------------!
 ||playercdn.net
 ||openload.co
+||oloadcdn.net
 ||invidio.us
 ||garmin.com
 ||gitbooks.io
