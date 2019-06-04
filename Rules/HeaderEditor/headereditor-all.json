@@ -143,30 +143,6 @@
 			"action": "redirect",
 			"to": "http://tieba.baidu.com/$2",
 			"group": "未分组"
-		},
-		{
-			"enable": true,
-			"name": "google fonts文件 >> 极客族",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/fonts\\.gstatic\\.com\\/(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://fdn.geekzu.org/g-fonts/$1",
-			"group": "未分组"
-		},
-		{
-			"enable": true,
-			"name": "google fonts文件2 >> 极客族",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/themes\\.googleusercontent\\.com\\/(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://fdn.geekzu.org/g-themes/$1",
-			"group": "未分组"
 		}
 	],
 	"sendHeader": [
