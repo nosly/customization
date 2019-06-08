@@ -666,17 +666,6 @@
 		},
 		{
 			"enable": true,
-			"name": "inoreader",
-			"ruleType": "modifySendHeader",
-			"matchType": "all",
-			"pattern": "^https?:\\/\\/.*\\.inoreader\\.com.*",
-			"exclude": "",
-			"isFunction": true,
-			"code": "for (let a in val) {\n\tif (val[a].name.toLowerCase() === 'referer') {\n                if (val[a].value.includes('inoreader.')) {\n\t\t     val.splice(a,1);\n\t\t     break;\n\t        }\n\t}\n}",
-			"group": "未分组"
-		},
-		{
-			"enable": true,
 			"name": "cnbeta图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
@@ -733,7 +722,7 @@
 		},
 		{
 			"enable": true,
-			"name": "OK资源网m3u8格式播放",
+			"name": "okokbo m3u8播放",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
 			"pattern": "bobo.okokbo.com",
