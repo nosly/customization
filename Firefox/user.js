@@ -83,6 +83,7 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以�
 
 //*==========Firefox设置==========*//
 //书签相关
+user_pref("browser.bookmarks.autoExportHTML", true);//退出时自动备份书签html文件
 user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
