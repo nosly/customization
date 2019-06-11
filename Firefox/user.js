@@ -1,4 +1,4 @@
-//2019.06.03
+//2019.6.11
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -39,8 +39,6 @@ user_pref("browser.tabs.unloadOnLowMemory", false);//低内存时不自动卸载
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
 user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
-user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载增大连接数
-user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程下载增大连接数
 
 //*==========网络协议问题==========*//
 user_pref("network.security.esni.enabled", true);
