@@ -196,6 +196,10 @@ statista.com##.modal-dialog--caRequest.modal-dialog
 www.porn.com##.player-right
 www.porn.com##.f-zne8
 
+! pornhub.com
+www.pornhub.com##milktruck
+www.pornhub.com##milktruck_ftr
+www.pornhub.com##.aevze62oagac8tp337xyf
 
 ! 天涯
 tianya.cn###js-bc-shang
