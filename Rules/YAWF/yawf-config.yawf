@@ -1,7 +1,7 @@
 {
   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0",
   "yawf": "Yet Another Weibo Filter",
-  "ver": "3.7.500",
+  "ver": "3.7.502",
   "gm": "Tampermonkey4.9.5941",
   "conf": {
     "weibo.tool.load_weibo_by_newest": true,
@@ -377,6 +377,8 @@
     "weibo.tool.color_override.transparency3": 30,
     "weibo.tool.color_override": false,
     "weibo.tool.userstyle": "",
-    "script.other.auto_complete": true
+    "script.other.auto_complete": true,
+    "weibo.tool.highlight_low_reading.count": 100,
+    "weibo.tool.highlight_low_reading": true
   }
 }
