@@ -17,7 +17,6 @@
 ||sourceforge.net
 ||walmart.com
 ||textalyser.net
-||sconverter.com
 ||sunsky-online.com
 ||compressor.io
 ||miniinthebox.com
@@ -141,11 +140,8 @@
 ||yahoo.com
 ||zimuzu.tv
 ||zkcdn.net
-||consumer.huawei.com
 ||anki.com
 ||listary.com
-||5sing.kugou.com
-||windowtabs.com
 ||nautil.us
 ||cellzmate.com
 ||bitdefender.com
