@@ -194,15 +194,15 @@ statista.com##.modal-dialog--caRequest.modal-dialog
 
 ! Porn.com
 www.porn.com##.player-right
-www.porn.com##.f-zne8
 
 ! pornhub.com
-www.pornhub.com##milktruck
-www.pornhub.com##milktruck_ftr
-www.pornhub.com##.aevze62oagac8tp337xyf
 www.pornhub.com##.alpha.sniperModeEngaged
 www.pornhub.com##body > iframe:nth-of-type(1)
-
+www.pornhub.com###hotVideosSection > .alpha
+www.pornhub.com##* > iframe
+www.pornhub.com##.clearfix.*
+www.pornhub.com##.streamatesModelsContainer.sectionWrapper
+www.pornhub.com##vpContentContainer > iqqhe:nth-child(2)
 
 ! 天涯
 tianya.cn###js-bc-shang
