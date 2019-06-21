@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1561021765827,
+  "timeStamp": 1561130840562,
   "version": "1.20.0",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://filters.adtidy.org/windows/filters/15.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt\nhttps://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
+    "externalLists": "https://filters.adtidy.org/windows/filters/15.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt\nhttps://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -29,7 +29,6 @@
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt",
-    "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
   ],
   "hiddenSettings": {

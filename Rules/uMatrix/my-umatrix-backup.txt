@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1560843474414,
+  "when": 1561130862828,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -26,14 +26,7 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "processReferer": false,
-    "selectedHostsFiles": [
-      "dpollock-0",
-      "hphosts",
-      "malware-0",
-      "malware-1",
-      "mvps-0",
-      "plowe-0"
-    ],
+    "selectedHostsFiles": [],
     "selectedRecipeFiles": [],
     "userHosts": {
       "enabled": false,
@@ -48,11 +41,8 @@
     "* * * block",
     "* * cookie block",
     "* * css allow",
-    "* * frame allow",
     "* * image allow",
     "* * media allow",
-    "* * other allow",
-    "* * xhr allow",
     "* 126.net * allow",
     "* 127.net * allow",
     "* 163.com * allow",
@@ -147,6 +137,7 @@
     "* jwplatform.com * allow",
     "* ksplayer.com * allow",
     "* l.qq.com * inherit",
+    "* laohu-zuida.com * allow",
     "* lecloud.com * allow",
     "* letv.com * allow",
     "* letvcdn.com * allow",
@@ -181,6 +172,7 @@
     "* staticfile.org * allow",
     "* taobao.com cookie allow",
     "* tbcdn.cn * allow",
+    "* translate.google.com * block",
     "* translate.googleapis.com * block",
     "* twitter.com * allow",
     "* unpkg.com * allow",
