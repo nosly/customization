@@ -65,6 +65,10 @@ baike.baidu.com###fc_guess_like
 baike.baidu.com##.bdsharebuttonbox.side-share
 baike.baidu.com##.userbar_mall
 baike.com###newsfix-on
+tieba.baidu.com###forum_recommend
+tieba.baidu.com##.d_sign_split
+tieba.baidu.com##.thread_recommend
+tieba.baidu.com##.thread_recommend_ps.thread-recommend-ps
 
 ! 卡饭
 bbs.kafan.cn###autopbn
@@ -195,11 +199,6 @@ www.pornhub.com###js-networkBar
 tianya.cn###js-bc-shang
 tianya.cn##.scroll-btn
 
-! 百度
-tieba.baidu.com###forum_recommend
-tieba.baidu.com##.d_sign_split
-tieba.baidu.com##.thread_recommend
-tieba.baidu.com##.thread_recommend_ps.thread-recommend-ps
 
 ! 优酷
 v.youku.com###module-interact
