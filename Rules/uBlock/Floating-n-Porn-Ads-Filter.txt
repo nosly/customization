@@ -202,7 +202,7 @@ www.pornhub.com###hotVideosSection > .alpha
 www.pornhub.com##* > iframe
 www.pornhub.com##.clearfix.*
 www.pornhub.com##.streamatesModelsContainer.sectionWrapper
-www.pornhub.com##vpContentContainer > *:nth-child(2)
+www.pornhub.com##vpContentContainer
 
 
 ! 天涯
