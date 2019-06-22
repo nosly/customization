@@ -10,7 +10,6 @@
 
 ! 杂项
 @@*/vmind.qqvideo.tc.qq.com/$object-subrequest
-@@||atm.youku.com/v$object-subrequest
 @@||sinaimg.cn^$domain=acg18.us
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@|http://v.aty.sohu.com/v$object-subrequest
@@ -24,8 +23,6 @@ www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-10000
 www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-d69723d2-f788-40a5-bcc4-9d3d165bcf60
 www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-f0055c19-7c70-4b93-83bb-390a4652ba5a
 
-! 乐视
-|http://*/letv-gug/
 
 ! 1688
 detail.1688.com##.sufei-dialog-jquery.sufei-dialog
@@ -161,15 +158,6 @@ iqiyi.com##[data-widget-appdown="playpage"]
 jd.com##.side__ad.side__ad-left
 jd.com##.side__ad.side__ad-right
 
-! 益书网
-kindbook.cn###comiis_kx_div
-kindbook.cn###dreambred_portal_area_a_10
-kindbook.cn###ip_notice
-kindbook.cn##.csu_wxnav
-kindbook.cn##.itopad
-kindbook.cn##.kefuqq-box
-kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng2"]
-
 ! Mobilefun
 mobilefun.co.uk###fancybox-outer
 mobilefun.co.uk###fancybox-overlay
@@ -199,6 +187,9 @@ www.porn.com##.player-right
 www.pornhub.com##.alpha.sniperModeEngaged
 www.pornhub.com###hotVideosSection > .alpha
 www.pornhub.com###hotVideosSection > li:nth-of-type(1)
+www.pornhub.com##.abovePlayer
+www.pornhub.com###js-networkBar
+
 
 ! 天涯
 tianya.cn###js-bc-shang
@@ -213,6 +204,7 @@ tieba.baidu.com##.thread_recommend_ps.thread-recommend-ps
 ! 优酷
 v.youku.com###module-interact
 youku.com###qrcode-container
+@@||atm.youku.com/v$object-subrequest
 
 ! 人人都是产品经理
 woshipm.com##.tips-box.font16.mar-b20
