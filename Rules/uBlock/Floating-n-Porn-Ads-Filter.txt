@@ -202,7 +202,8 @@ www.pornhub.com###hotVideosSection > .alpha
 www.pornhub.com##* > iframe
 www.pornhub.com##.clearfix.*
 www.pornhub.com##.streamatesModelsContainer.sectionWrapper
-www.pornhub.com##vpContentContainer > iqqhe:nth-child(2)
+www.pornhub.com##vpContentContainer > *:nth-child(2)
+
 
 ! 天涯
 tianya.cn###js-bc-shang
