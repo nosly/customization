@@ -1,4 +1,4 @@
-//2019.6.11
+//20190622
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -16,10 +16,17 @@
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("privacy.donottrackheader.enabled", true);//始终向网站发出“请勿跟踪”信号
-user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
+user_pref("browser.shell.checkDefaultBrowser", false);//总是检查是否为默认浏览器(否)
 user_pref("security.default_personal_cert", "Select Automatically");//自动选择一个个人证书
 user_pref("browser.search.update", false);//禁用搜索引擎自动更新
 user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
+
+
+//内容拦截
+user_pref("browser.contentblocking.category", "custom");//内容拦截: 模式(自定义)
+user_pref("privacy.trackingprotection.pbmode.enabled", false);//内容拦截: 跟踪器(否)
+user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
+
 
 //字体语言编码
 user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
