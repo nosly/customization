@@ -197,10 +197,8 @@ www.porn.com##.player-right
 
 ! pornhub.com
 www.pornhub.com##.alpha.sniperModeEngaged
-www.pornhub.com##body > iframe:nth-of-type(1)
 www.pornhub.com###hotVideosSection > .alpha
-www.pornhub.com##.streamatesModelsContainer.sectionWrapper
-
+www.pornhub.com###hotVideosSection > li:nth-of-type(1)
 
 ! 天涯
 tianya.cn###js-bc-shang
@@ -238,3 +236,6 @@ www.zimuzu.tv###help
 ! Wish
 www.wish.com###new-login-modal
 www.wish.com###login-modal-overlay
+
+! Youtube
+www.youtube.com###contentWrapper > .ytd-popup-container.style-scope
