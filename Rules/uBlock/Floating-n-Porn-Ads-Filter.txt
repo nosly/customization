@@ -3,7 +3,7 @@
 ! Description:  過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康!）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author:       Cing
 ! License:      Creative Commons BY-NC-SA
-! Version:      2019
+! Version:      20190623
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
@@ -47,17 +47,12 @@ aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.u
 
 ! 百度
 pan.baidu.com##.super-member-tip
-pan.baidu.com##.uuuLp2v
 pan.baidu.com##.bar > .x-button-box > .nd-button-build.g-button
-pan.baidu.com##.bar > .x-button-box > a.g-button:nth-of-type(3)
-pan.baidu.com##a.g-button:nth-of-type(4)
 pan.baidu.com##.JS-nativeupload-tip.yt1MQp.global-clearfix
-pan.baidu.com##.yeEDsO
 zhidao.baidu.com##.wrapper
 zhidao.baidu.com##.ui-draggable.sign-in-dialog.ui-front.ui-widget-content.ui-widget.ui-dialog
 pan.baidu.com###dialog1
 pan.baidu.com##.module-canvas
-zhidao.baidu.com###ik-dlg-106
 zhidao.baidu.com##.ui-front.ui-widget-overlay
 baike.baidu.com###J-declare
 baike.baidu.com###J-declare-wrap
@@ -87,7 +82,6 @@ bbs.tianya.cn###niuren_ifm
 bobo.com##.mod-follow
 
 ! cnbeta资讯
-cnbeta.com##.cbv810
 cnbeta.com###cb_share
 cnbeta.com##.mask-box
 cnbeta.com##.mask-layer
@@ -139,11 +133,7 @@ huawei.com##.ReadPolicy.browsehappy
 huya.com###mbbs-qrcode
 huya.com###v-alist-tip
 huya.com##.relate_right
-huya.com##ASIDE
 
-! 异次元
-iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 20px auto"]
-iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 24px auto"]
 
 ! 爱奇艺
 iqiyi.com###goosBtn
@@ -205,24 +195,6 @@ v.youku.com###module-interact
 youku.com###qrcode-container
 @@||atm.youku.com/v$object-subrequest
 
-! 人人都是产品经理
-woshipm.com##.tips-box.font16.mar-b20
-
-! 字幕组
-zmz2017.com##.ad1.ad:nth-of-type(5)
-zmz2017.com##.ad1.ad:nth-of-type(5) > div
-zmz2017.com##.ad1.ad:nth-of-type(7)
-zmz2017.com##.area-right > .adsbygoogle:nth-of-type(1)
-zmz2017.com##.area-right > div:nth-of-type(1) > .adsbygoogle
-zmz2017.com##.qdad.fl > div > .adsbygoogle
-zmz2017.com##.qdad.fr > .adsbygoogle
-zmz2017.com##.resource-list > .adsbygoogle
-zmz2017.com##.top-box > div:nth-of-type(3)
-zmz2017.com##.top-box > div:nth-of-type(5)
-zmz2017.com##body > div:nth-of-type(5)
-zmz2017.com##body > div:nth-of-type(6)
-zmz2017.com##div:nth-of-type(4) > .adsbygoogle
-www.zimuzu.tv###help
 
 ! Wish
 www.wish.com###new-login-modal
