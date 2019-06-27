@@ -28,11 +28,6 @@ user_pref("privacy.trackingprotection.cryptomining.enabled", true);//内容拦�
 user_pref("privacy.trackingprotection.fingerprinting.enabled", true);//内容拦截: 数字指纹跟踪程序(是)
 
 
-//字体语言编码
-user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
-user_pref("font.name.sans-serif.zh-CN", "Arial");//无衬线字体
-user_pref("font.name.monospace.zh-CN", "Arial");//等宽字体
-
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
@@ -51,8 +46,7 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 user_pref("network.security.esni.enabled", true);
 
 
-//功能去除
-user_pref("signon.rememberSignons", false); //关闭自带的保存密码功能
+//*==========FX其它类==========*//
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
 user_pref("extensions.e10sBlockedByAddons", false);//扩展禁用列表
 user_pref("accessibility.force_disabled", 1); //禁用无障碍环境
@@ -61,15 +55,10 @@ user_pref("security.mixed_content.block_display_content", false); //关闭ssl不
 user_pref("security.dialog_enable_delay", 0);//安装附加组件时的等待时间
 user_pref("datareporting.healthreport.uploadEnabled", false);//关闭安全检测健康中心
 user_pref("datareporting.policy.dataSubmissionEnabled", false); //关闭安全检测健康中心
-
-
-//偏好设置
 user_pref("datareporting.healthreport.service.enabled", false);//禁止遥测往prefs.js写入数据
 user_pref("browser.safebrowsing.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
 user_pref("browser.safebrowsing.malware.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
 user_pref("browser.safebrowsing.phishing.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
-
-//*==========FX其它类==========*//
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
@@ -110,12 +99,10 @@ user_pref("dom.streams.enabled", true);
 /**
 *会话相关
 */
-user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
 user_pref("browser.sessionstore.interval", 3600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为1小时
 
 /******************************************************************************************
  *这里是个人设置。
-个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
  *******************************************************************************************/
 
 //*==========主页==========*//
