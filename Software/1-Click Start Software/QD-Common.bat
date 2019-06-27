@@ -34,7 +34,6 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
 start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
 start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
-start "" "%dir%\Nutstore\Nutstore.exe" /min
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
 start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
