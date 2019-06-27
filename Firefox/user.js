@@ -1,4 +1,4 @@
-//20190622
+//20190626
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -15,9 +15,7 @@
 //*==========选项卡里的设置==========*//
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("privacy.donottrackheader.enabled", true);//始终向网站发出“请勿跟踪”信号
 user_pref("browser.shell.checkDefaultBrowser", false);//总是检查是否为默认浏览器(否)
-user_pref("security.default_personal_cert", "Select Automatically");//自动选择一个个人证书
 user_pref("browser.search.update", false);//禁用搜索引擎自动更新
 user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
 
@@ -41,7 +39,7 @@ user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
-user_pref("browser.tabs.unloadOnLowMemory", false);//低内存时不自动卸载标签
+
 
 
 //*==========下载相关==========*//
@@ -61,31 +59,27 @@ user_pref("accessibility.force_disabled", 1); //禁用无障碍环境
 user_pref("security.mixed_content.block_active_content", false); //关闭ssl不安全内容和混合内容保护1 (让小书签在https页面上起作用 )
 user_pref("security.mixed_content.block_display_content", false); //关闭ssl不安全内容和混合内容保护2
 user_pref("security.dialog_enable_delay", 0);//安装附加组件时的等待时间
-user_pref("services.sync.engine.prefs",false); //取消首选项的同步功能
 user_pref("datareporting.healthreport.uploadEnabled", false);//关闭安全检测健康中心
 user_pref("datareporting.policy.dataSubmissionEnabled", false); //关闭安全检测健康中心
 
 
 //偏好设置
-user_pref("dom.popup_maximum", 5); //Firefox弹窗的最大数量
 user_pref("datareporting.healthreport.service.enabled", false);//禁止遥测往prefs.js写入数据
-user_pref("extensions.ui.lastCategory", "addons://list/extension");//附加组件默认打开扩展项
 user_pref("browser.safebrowsing.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
 user_pref("browser.safebrowsing.malware.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
 user_pref("browser.safebrowsing.phishing.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
 
 //*==========FX其它类==========*//
-user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
-user_pref("datareporting.healthreport.uploadEnabled", false);//允许发送技术信息及交互数据(否)
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
+user_pref("dom.webcomponents.shadowdom.enabled", true);
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
+
 
 
 //*==========Firefox设置==========*//
