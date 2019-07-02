@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1561801982525,
+  "when": 1562055961818,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -42,6 +42,7 @@
     "* * cookie block",
     "* * css allow",
     "* * image allow",
+    "* * media allow",
     "* 126.net * allow",
     "* 127.net * allow",
     "* 163.com * allow",
@@ -97,6 +98,7 @@
     "* cloudfront.net * allow",
     "* com-h-sina.com * allow",
     "* com-i-youku.com * allow",
+    "* com-l-ifeng.com * allow",
     "* com-l-iqiyi.com * allow",
     "* com-l-tudou.com * allow",
     "* com-v-tudou.com * allow",
@@ -572,6 +574,7 @@
     "live.com gfx.ms * allow",
     "live.com live.com cookie allow",
     "live.com microsoft.com * allow",
+    "live.com msauth.net * allow",
     "live.com msecnd.net * allow",
     "live.com office365.com * allow",
     "live.com outlook.com * allow",
