@@ -1,7 +1,7 @@
 {
-  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0",
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0",
   "yawf": "Yet Another Weibo Filter",
-  "ver": "3.7.502",
+  "ver": "3.7.504",
   "gm": "Tampermonkey4.9.5941",
   "conf": {
     "weibo.tool.load_weibo_by_newest": true,
@@ -123,11 +123,11 @@
     "weibo.comment.emoji_count": false,
     "weibo.comment.emoji_types.number": 4,
     "weibo.comment.emoji_types": false,
-    "weibo.comment.no_content": false,
+    "weibo.comment.no_content": true,
     "weibo.comment.with_forward": false,
     "weibo.comment.with_picture.act": "fold",
     "weibo.comment.with_picture": false,
-    "weibo.comment.delete_comment": false,
+    "weibo.comment.delete_comment": true,
     "weibo.layoutHideIconLevel": false,
     "weibo.layoutHideIconMember": true,
     "weibo.layoutHideIconApprove": false,
@@ -240,8 +240,8 @@
     "weibo.layoutHideOtherIMNews": false,
     "weibo.layoutHideOtherTip": false,
     "weibo.layoutHideOtherRelatedWB": false,
-    "weibo.layoutHideOtherRelatedVideo": false,
-    "weibo.layoutHideOtherRelatedArtical": false,
+    "weibo.layoutHideOtherRelatedVideo": true,
+    "weibo.layoutHideOtherRelatedArtical": true,
     "weibo.layoutHideOtherSendWeibo": false,
     "weibo.tool.showAllMsgNav.atme": true,
     "weibo.tool.showAllMsgNav.cmt": true,
@@ -322,7 +322,7 @@
     "weibo.tool.disable_desktop_notification": false,
     "weibo.tool.disable_video_click_pop": false,
     "weibo.tool.no_pop_but_full_screen": false,
-    "weibo.tool.video_no_auto_next": false,
+    "weibo.tool.video_no_auto_next": true,
     "weibo.tool.custom_font_family.wf": "Times",
     "weibo.tool.custom_font_family.cf": "中易宋体",
     "weibo.tool.custom_font_family": false,
@@ -379,6 +379,7 @@
     "weibo.tool.userstyle": "",
     "script.other.auto_complete": true,
     "weibo.tool.highlight_low_reading.count": 100,
-    "weibo.tool.highlight_low_reading": true
+    "weibo.tool.highlight_low_reading": true,
+    "weibo.layoutHideIconBigFun": true
   }
 }
