@@ -1,4 +1,4 @@
-::20190617
+::20190704
 
 @echo off
 ::最小化运行批处理
@@ -25,15 +25,17 @@ del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 
-::五代
+::Listary五代
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
-::六代
+::Listary六代
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
+
+::GFW
+start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
+::start "" "%dir%\CingFox\Software\GFW\v2ray-windows-64\v2rayN.exe"
 
 ::普通啟動
 start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
-::start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
-start "" "%dir%\CingFox\Software\GFW\v2ray-windows-64\v2rayN.exe"
 start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
