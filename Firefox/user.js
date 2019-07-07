@@ -1,4 +1,4 @@
-//20190626
+//20190706
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -24,14 +24,6 @@ user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
 user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
 user_pref("font.name.sans-serif.zh-CN", "Arial");//无衬线字体
 user_pref("font.name.monospace.zh-CN", "Arial");//等宽字体
-
-
-//内容拦截
-user_pref("browser.contentblocking.category", "custom");//内容拦截: 模式(自定义)
-user_pref("privacy.trackingprotection.pbmode.enabled", false);//内容拦截: 跟踪器(否)
-user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
-user_pref("privacy.trackingprotection.cryptomining.enabled", true);//内容拦截: 挖矿程序(是)
-user_pref("privacy.trackingprotection.fingerprinting.enabled", true);//内容拦截: 数字指纹跟踪程序(是)
 
 
 //*==========标签相关==========*//

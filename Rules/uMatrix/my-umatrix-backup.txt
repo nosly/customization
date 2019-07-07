@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1562055961818,
+  "when": 1562508760675,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -26,8 +26,17 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "processReferer": false,
-    "selectedHostsFiles": [],
-    "selectedRecipeFiles": [],
+    "selectedHostsFiles": [
+      "dpollock-0",
+      "hphosts",
+      "malware-0",
+      "malware-1",
+      "mvps-0",
+      "plowe-0"
+    ],
+    "selectedRecipeFiles": [
+      "recipes_en-0"
+    ],
     "userHosts": {
       "enabled": false,
       "content": ""
@@ -100,7 +109,9 @@
     "* com-i-youku.com * allow",
     "* com-l-ifeng.com * allow",
     "* com-l-iqiyi.com * allow",
+    "* com-l-qq.com * allow",
     "* com-l-tudou.com * allow",
+    "* com-t-letv.com * allow",
     "* com-v-tudou.com * allow",
     "* daidaitv.com * allow",
     "* disqus.com * allow",
@@ -184,6 +195,7 @@
     "* twitter.com * allow",
     "* unpkg.com * allow",
     "* upaiyun.com * allow",
+    "* v-sohu.com * allow",
     "* v.miaopai.com * allow",
     "* vimeo.com * allow",
     "* vimeocdn.com * allow",
@@ -294,6 +306,7 @@
     "baidu.com tongji.baidu.com * inherit",
     "baidu.com wkbos.bdimg.com script allow",
     "baidu.com wkstatic.bdimg.com script allow",
+    "baiduwp.com pandownload.com * allow",
     "baike.com www.huimg.cn script allow",
     "bandwagonhost.com statuscake.com * allow",
     "baomitu.com qhres.com script allow",
@@ -342,6 +355,7 @@
     "czjx8.com baiduoos.cn * allow",
     "dadatu.com hnskkj.com * allow",
     "dailymotion.com dmcdn.net * allow",
+    "dealy.com kxcdn.com * allow",
     "deviantart.com st.deviantart.net script allow",
     "dfpan.com yfdisk.com * allow",
     "dfpan.com yfpan.com * allow",
@@ -636,6 +650,7 @@
     "mokeedev.com loli.net * allow",
     "mozilla.org addons.cdn.mozilla.net script allow",
     "mozilla.org mozilla-community.org script allow",
+    "myprotein.cn thcdn.com * allow",
     "myquark.cn uc.cn * allow",
     "ncckl.cn baomitu.com * allow",
     "neilpatel.com netdna-ssl.com * allow",
@@ -816,7 +831,6 @@
     "tujidu.com okokbo.com * allow",
     "tujidu.com smucdn.com * allow",
     "tujidu.com wuaiso.com * allow",
-    "tvc-mall.com barilliance.com * allow",
     "tvc-mall.com gleam.io * allow",
     "twitch.tv static.twitchcdn.net script allow",
     "twitter.com abs.twimg.com script allow",
