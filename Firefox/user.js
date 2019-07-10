@@ -1,4 +1,4 @@
-//20190706
+//20190709
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -41,7 +41,7 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========网络协议问题==========*//
-user_pref("network.security.esni.enabled", true);
+user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
 
 
 //*==========FX其它类==========*//
