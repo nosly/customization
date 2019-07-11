@@ -30,6 +30,10 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::Listary六代
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
+::等待一段时间
+@echo off
+choice /t 10 /d y /n >nul
+
 ::GFW
 start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
 ::start "" "%dir%\CingFox\Software\GFW\v2ray-windows-64\v2rayN.exe"
