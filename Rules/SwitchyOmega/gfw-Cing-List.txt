@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
+||baacloud.com
 ||kxcdn.com
 ||bgpatterns.com
 ||coverr.co
