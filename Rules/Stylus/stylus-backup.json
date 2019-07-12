@@ -49,13 +49,13 @@
 		"name": "其它——网站修正",
 		"sections": [
 			{
-				"code": "/*+++ 20190704 +++*/\n\n/*---------------------------------\n指定域名时的几种方法:\n@document url(http://www.w3.org/),\n          url-prefix(http//www.w3,org/style/),\n          domain(mozilla.org),\n          regexp(\"https:.*\")\n---------------------------------*/\n\n\n\n/*=新建按钮框缩小=*/\n\t.mod_title_opt.btn_blue,/*新建一级分类，新建产品品牌*/\n.btn_blue/*型号分组管理，新建子组目录*/ {\n\t\tpadding: 0px !important;\n\t}\n\n/**\n*隐藏一些不常用的按钮及菜单\n*/",
+				"code": "/*+++ 20190704 +++*/\n\n/*---------------------------------\n指定域名时的几种方法:\n@document url(http://www.w3.org/),\n          url-prefix(http//www.w3,org/style/),\n          domain(mozilla.org),\n          regexp(\"https:.*\")\n---------------------------------*/\n\n\n\n/*=新建按钮框缩小=*/\n\t.mod_title_opt.btn_blue,/*新建一级分类，新建产品品牌*/\n.btn_blue/*型号分组管理，新建子组目录*/ {\n\t\tpadding: 0px !important;\n\t}\n\n",
 				"regexps": [
 					"https?:\\/\\/(ic|cm)\\.(sjlpj\\.cn|test\\.dev)\\/.*"
 				]
 			},
 			{
-				"code": "/*=TvcMall品类管理=*/\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(2)/*父级分类*/ {\n\t\twidth: 280px\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(3)/*父级分类ID*/ {\n\t\twidth: 60px\n\t}\n   .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)/*分类ID*/ {\n\t\twidth: 60px\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(4)/*排序*/ {\n\t\twidth: 30px\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(5)/*备注*/ {\n\t\twidth: 40px\n\t}\n\n\tA[title=\"子分类排序\"] {\n\t\tdisplay: none !important;\n\t}\n\n\tA[title=\"删除\"] {\n\t\tcolor: red !important;\n\t}\n\n\tA[class=\"btn_add\"]/*添加子分类*/ {\n\t\tcolor: green !important;\n\t}\n\n\tA[rel=\"link\"]/*子分类排序导出*/ {\n\t\tcolor: black !important;\n\t}\n\n\tA[title=\"子分类排序导入\"]/*子分类排序导入*/ {\n\t\tcolor: black !important;\n\t}",
+				"code": "/*=TvcMall品类管理=*/\n    .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2)/*分类名称*/ {\n\t\twidth: 150px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(3)/*父级分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n   .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)/*分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(4)/*排序*/ {\n\t\twidth: 30px  !important;\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(5)/*备注*/ {\n\t\twidth: 40px  !important;\n\t}\n\n\tA[title=\"子分类排序\"] {\n\t\tdisplay: none !important;\n\t}\n\n\tA[title=\"删除\"] {\n\t\tcolor: red !important;\n\t}\n\n\tA[class=\"btn_add\"]/*添加子分类*/ {\n\t\tcolor: green !important;\n\t}\n\n\tA[rel=\"link\"]/*子分类排序导出*/ {\n\t\tcolor: black !important;\n\t}\n\n\tA[title=\"子分类排序导入\"]/*子分类排序导入*/ {\n\t\tcolor: black !important;\n\t}",
 				"regexps": [
 					"https?:\\/\\/(ic|cm)\\.(sjlpj\\.cn|test\\.dev)\\/.*ProductNewCategory\\/.*"
 				]
@@ -91,7 +91,7 @@
 				]
 			}
 		],
-		"updateDate": 1562816476345,
+		"updateDate": 1562895587690,
 		"id": 3
 	}
 ]
