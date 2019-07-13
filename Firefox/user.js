@@ -1,12 +1,15 @@
-//20190709
+//20190713
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
+*/
+
+/*************************************************************************************
 # Note:
 - OurSticky扩展导致百度网盘离线下载添加BT种子时窗口无法弹出
 - Don't Fuck with my Scrolling脚本会导致某些直播视频无法加载
-*/
+ *************************************************************************************/
 
 /******************************************************************************************
  *这里是通用设置。
@@ -34,11 +37,11 @@ user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标�
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 
 
-
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
 user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
+
 
 //*==========网络协议问题==========*//
 user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
@@ -47,11 +50,7 @@ user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不
 //*==========FX其它类==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
-user_pref("extensions.e10sBlockedByAddons", false);//扩展禁用列表
 user_pref("accessibility.force_disabled", 1); //禁用无障碍环境
-user_pref("security.mixed_content.block_active_content", false); //关闭ssl不安全内容和混合内容保护1 (让小书签在https页面上起作用 )
-user_pref("security.mixed_content.block_display_content", false); //关闭ssl不安全内容和混合内容保护2
-user_pref("security.dialog_enable_delay", 0);//安装附加组件时的等待时间
 user_pref("datareporting.healthreport.uploadEnabled", false);//关闭安全检测健康中心
 user_pref("datareporting.policy.dataSubmissionEnabled", false); //关闭安全检测健康中心
 user_pref("datareporting.healthreport.service.enabled", false);//禁止遥测往prefs.js写入数据
@@ -63,8 +62,6 @@ user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转�
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("dom.webcomponents.shadowdom.enabled", true);
-user_pref("svg.context-properties.content.enabled", true);
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 
@@ -84,15 +81,8 @@ user_pref("mousewheel.acceleration.start", 3);
 user_pref("mousewheel.default.delta_multiplier_y", 160);
 
 //插件
-user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位flash关闭沙箱
 user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
-user_pref("dom.ipc.plugins.flash.disable-protected-mode", true); //直接用火狐禁用flash保护模式
-user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false); //flash崩溃报告crashreporter
-user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); //允许Firefox代您发送积压的崩溃报告（禁止）
 
-
-//开启流媒体API
-user_pref("dom.streams.enabled", true); 
 
 
 /**
