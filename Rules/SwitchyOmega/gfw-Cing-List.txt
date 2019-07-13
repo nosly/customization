@@ -148,7 +148,6 @@
 ||anki.com
 ||listary.com
 ||nautil.us
-||cellzmate.com
 ||bitdefender.com
 ||etradesupply.com
 ||gearbest.com
@@ -156,6 +155,7 @@
 ||userstyles.org
 
 !公司网站
+||cellzmate.com
 ||tvc-mall.com
 ||ipartsexpert.com
 @@||test.tvc-mall.com
