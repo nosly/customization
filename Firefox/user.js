@@ -1,4 +1,4 @@
-//20190713
+//20190716
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -9,6 +9,7 @@
 # Note:
 - OurSticky扩展导致百度网盘离线下载添加BT种子时窗口无法弹出
 - Don't Fuck with my Scrolling脚本会导致某些直播视频无法加载
+- 自带内容拦截有卡网的情况
  *************************************************************************************/
 
 /******************************************************************************************
@@ -27,6 +28,13 @@ user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
 user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
 user_pref("font.name.sans-serif.zh-CN", "Arial");//无衬线字体
 user_pref("font.name.monospace.zh-CN", "Arial");//等宽字体
+
+//内容拦截
+user_pref("browser.contentblocking.category", "custom");//内容拦截: 模式(自定义)
+user_pref("privacy.trackingprotection.pbmode.enabled", false);//内容拦截: 跟踪器(否)
+user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
+user_pref("privacy.trackingprotection.cryptomining.enabled", true);//内容拦截: 挖矿程序(是)
+user_pref("privacy.trackingprotection.fingerprinting.enabled", true);//内容拦截: 数字指纹跟踪程序(是)
 
 
 //*==========标签相关==========*//
@@ -64,6 +72,7 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
+user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
 
 
 
@@ -73,12 +82,6 @@ user_pref("browser.bookmarks.autoExportHTML", true);//退出时自动备份书�
 user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
-//平滑滚动参数
-user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 150);
-user_pref("general.smoothScroll.mouseWheel.durationMinMS", 150);
-user_pref("mousewheel.acceleration.factor", 15);
-user_pref("mousewheel.acceleration.start", 3);
-user_pref("mousewheel.default.delta_multiplier_y", 160);
 
 //插件
 user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
