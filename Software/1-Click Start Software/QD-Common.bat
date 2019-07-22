@@ -26,9 +26,9 @@ del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 
 ::Listary五代
-::start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
+start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::Listary六代
-start "" "%dir%\CingFox\Software\Listary\listary.exe"
+::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
 ::等待一段时间
 @echo off
