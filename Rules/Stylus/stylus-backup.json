@@ -55,7 +55,7 @@
 				]
 			},
 			{
-				"code": "/*=TvcMall品类管理=*/\n    .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2)/*分类名称*/ {\n\t\twidth: 150px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(3)/*父级分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n   .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)/*分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(4)/*排序*/ {\n\t\twidth: 30px  !important;\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(5)/*备注*/ {\n\t\twidth: 40px  !important;\n\t}\n\n\tA[title=\"子分类排序\"] {\n\t\tdisplay: none !important;\n\t}\n\n\tA[title=\"删除\"] {\n\t\tcolor: red !important;\n\t}\n\n\tA[class=\"btn_add\"]/*添加子分类*/ {\n\t\tcolor: green !important;\n\t}\n\n\tA[rel=\"link\"]/*子分类排序导出*/ {\n\t\tcolor: black !important;\n\t}\n\n\tA[title=\"子分类排序导入\"]/*子分类排序导入*/ {\n\t\tcolor: black !important;\n\t}",
+				"code": "/*=TvcMall品类管理=*/\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(3)/*父级分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n   .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)/*分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(4)/*排序*/ {\n\t\twidth: 30px  !important;\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(5)/*备注*/ {\n\t\twidth: 40px  !important;\n\t}\n\n\tA[title=\"子分类排序\"] {\n\t\tdisplay: none !important;\n\t}\n\n\tA[title=\"删除\"] {\n\t\tcolor: red !important;\n\t}\n\n\tA[class=\"btn_add\"]/*添加子分类*/ {\n\t\tcolor: green !important;\n\t}\n\n\tA[rel=\"link\"]/*子分类排序导出*/ {\n\t\tcolor: black !important;\n\t}\n\n\tA[title=\"子分类排序导入\"]/*子分类排序导入*/ {\n\t\tcolor: black !important;\n\t}",
 				"regexps": [
 					"https?:\\/\\/(ic|cm)\\.(sjlpj\\.cn|test\\.dev)\\/.*ProductNewCategory\\/.*"
 				]
@@ -91,7 +91,7 @@
 				]
 			}
 		],
-		"updateDate": 1562895587690,
+		"updateDate": 1563759263209,
 		"id": 3
 	}
 ]
