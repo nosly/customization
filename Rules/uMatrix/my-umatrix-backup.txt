@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1563595618288,
+  "when": 1563795860478,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -27,16 +27,11 @@
     "processHyperlinkAuditing": true,
     "processReferer": false,
     "selectedHostsFiles": [
-      "dpollock-0",
       "hphosts",
       "malware-0",
-      "malware-1",
-      "mvps-0",
-      "plowe-0"
+      "malware-1"
     ],
-    "selectedRecipeFiles": [
-      "recipes_en-0"
-    ],
+    "selectedRecipeFiles": [],
     "userHosts": {
       "enabled": false,
       "content": ""
@@ -58,7 +53,6 @@
     "* 163yun.com * allow",
     "* 1717yun.com * allow",
     "* 1st-party * allow",
-    "* 1st-party cookie allow",
     "* 3.cn * allow",
     "* 360buyimg.com * allow",
     "* 47ks.com * allow",
@@ -315,6 +309,7 @@
     "baidu.com tongji.baidu.com * inherit",
     "baidu.com wkbos.bdimg.com script allow",
     "baidu.com wkstatic.bdimg.com script allow",
+    "baiduwp.com baiduwp.com cookie allow",
     "baiduwp.com pandownload.com * allow",
     "baike.com www.huimg.cn script allow",
     "bandwagonhost.com statuscake.com * allow",
@@ -327,6 +322,7 @@
     "bdimg.com bdstatic.com * allow",
     "bestbuy.com bbystatic.com * allow",
     "bestbuy.com demdex.net * allow",
+    "bilibili.com bilibili.com cookie allow",
     "bilibili.com s2.hdslb.com script allow",
     "bimibimi.cc aikcq.cn * allow",
     "bitwarden.com bitwarden.com cookie allow",
@@ -444,6 +440,7 @@
     "getpocket.com www.google.com script allow",
     "gezhongshu.com api.geetest.com script inherit",
     "gezhongshu.com dianbook.cc * allow",
+    "gezhongshu.com gezhongshu.com cookie allow",
     "gezhongshu.com static.geetest.com script inherit",
     "github.com avatars1.githubusercontent.com cookie allow",
     "github.com avatars2.githubusercontent.com cookie allow",
@@ -599,6 +596,7 @@
     "lightinthebox.com rightinthebox.com * allow",
     "linkedin.com s.c.lnkd.licdn.com script allow",
     "linkedin.com static.licdn.com script allow",
+    "listary.com listary.com cookie allow",
     "live.com azureedge.net * allow",
     "live.com gfx.ms * allow",
     "live.com live.com cookie allow",
@@ -665,6 +663,8 @@
     "mokeedev.com loli.net * allow",
     "mozilla.org addons.cdn.mozilla.net script allow",
     "mozilla.org mozilla-community.org script allow",
+    "mozilla.org mozilla.org cookie allow",
+    "mtime.com mtime.cn * allow",
     "myprotein.cn thcdn.com * allow",
     "myquark.cn uc.cn * allow",
     "ncckl.cn baomitu.com * allow",
@@ -945,6 +945,8 @@
     "youtube.com unpkg.com * allow",
     "youtube.com youtube.com cookie allow",
     "youtube.com ytimg.com * allow",
+    "yuanliao.info u-tools.cn * allow",
+    "yuanliao.info yuanliao.info cookie allow",
     "yunpan.cn s.ssl.qhimg.com script allow",
     "yunpan.cn yunpan.360.cn script allow",
     "yunyingpai.com woshipm.com * allow",
