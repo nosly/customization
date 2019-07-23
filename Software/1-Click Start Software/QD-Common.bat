@@ -1,4 +1,4 @@
-::20190704
+::2019.07.23
 
 @echo off
 ::最小化运行批处理
@@ -12,6 +12,9 @@ cd /d %~dp0
 ::完
 
 :begin
+::等待一段时间
+@echo off
+choice /t 10 /d y /n >nul
 
 ::設置程序文件夾位置
 set dir=D:\Program Files
