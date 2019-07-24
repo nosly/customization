@@ -20,16 +20,22 @@ choice /t 10 /d y /n >nul
 set dir=D:\Program Files
 
 ::Processlaso特殊处理
+::删除日志临时文件
+del "%dir%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
+::启动程序
 start "" "%dir%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%dir%\System Tools\ProcessLassoPortable\config" "/logfolder=%dir%\System Tools\ProcessLassoPortable\config" /min
 start "" "%dir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%dir%\System Tools\ProcessLassoPortable\config" "/logfolder=%dir%\System Tools\ProcessLassoPortable\config" /min
 
+
+
+::Listary五代
 ::初始化Listary磁盘扫描,日志(解决5.x版U盘弹出后还有文件记录)
 del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 
-::Listary五代
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
+
 ::Listary六代
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
