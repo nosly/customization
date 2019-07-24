@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1563795860478,
+  "when": 1563870756709,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -27,11 +27,16 @@
     "processHyperlinkAuditing": true,
     "processReferer": false,
     "selectedHostsFiles": [
+      "dpollock-0",
       "hphosts",
       "malware-0",
-      "malware-1"
+      "malware-1",
+      "mvps-0",
+      "plowe-0"
     ],
-    "selectedRecipeFiles": [],
+    "selectedRecipeFiles": [
+      "recipes_en-0"
+    ],
     "userHosts": {
       "enabled": false,
       "content": ""
@@ -375,6 +380,7 @@
     "dida365.com dida365.com cookie allow",
     "dimensions.guide webflow.com * allow",
     "dingtalk.com alipay.com script inherit",
+    "dingtalk.com dingtalk.com cookie allow",
     "dingtalk.com dingtalkapps.com * allow",
     "dingtalk.com fosun.com * allow",
     "dji.com djicdn.com script allow",
@@ -437,7 +443,7 @@
     "geekbuying.com content2.geekbuying.com script allow",
     "geekbuying.com promotion.geekbuying.com script allow",
     "geekpark.net qnssl.com script allow",
-    "getpocket.com www.google.com script allow",
+    "getpocket.com getpocket.com cookie allow",
     "gezhongshu.com api.geetest.com script inherit",
     "gezhongshu.com dianbook.cc * allow",
     "gezhongshu.com gezhongshu.com cookie allow",
@@ -486,6 +492,7 @@
     "https-strict: behind-the-scene false",
     "huaban.com huabanimg.com * allow",
     "huaban.com saintic.com * allow",
+    "hualongxiang.com hualongxiang.com cookie allow",
     "huawei.com consumer-res.huaweistatic.com script allow",
     "huawei.com dbankcdn.com * allow",
     "huawei.com res.c.huaweistatic.com script allow",
@@ -493,7 +500,8 @@
     "huihui.cn shared.ydstatic.com script allow",
     "huihui.cn webzj.reg.163.com script allow",
     "huorong.cn discuz.gtimg.cn script allow",
-    "hupu.com hoopchina.com.cn script allow",
+    "hupu.com hoopchina.com.cn * allow",
+    "hupu.com hupu.com cookie allow",
     "huxiu.com huxiucdn.com * allow",
     "huya.com 183.59.53.202 script allow",
     "huya.com msstatic.com * allow",
@@ -678,7 +686,6 @@
     "ngacn.cc 178.com * allow",
     "nickkolenda.com fast.wistia.com script allow",
     "nih.gov static.pubmed.gov script allow",
-    "noscript-spoof: * true",
     "nubia.com static.nubia.cn script allow",
     "nytimes.com mssl.fwmrm.net script allow",
     "nytimes.com nyt.com * allow",
@@ -890,7 +897,7 @@
     "wikia.com nocookie.net * allow",
     "wikipedia.org wikimedia.org * allow",
     "windows.com windows.net * allow",
-    "wired.com player.cnevids.com script allow",
+    "wired.com cnevids.com * allow",
     "wish.com ajax.googleapis.com script inherit",
     "wish.com connect.facebook.net script allow",
     "wish.com staticxx.facebook.com script allow",
@@ -977,6 +984,7 @@
     "zmz003.com diaodiaode.me * allow",
     "zmz005.com diaodiaode.me * allow",
     "zmz2017.com zmzjstu.com script allow",
+    "znds.com dangbei.net * allow",
     "zol.com.cn zol-img.com.cn script allow"
   ],
   "rawSettings": {

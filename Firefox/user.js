@@ -1,4 +1,4 @@
-//20190718
+//2019.07.23
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -22,6 +22,7 @@ user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("browser.shell.checkDefaultBrowser", false);//总是检查是否为默认浏览器(否)
 user_pref("browser.search.update", false);//禁用搜索引擎自动更新
 user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
+user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪(一律发送)
 
 
 //字体语言编码
@@ -73,6 +74,7 @@ user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
+user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简略,无法离线查看列表)
 
 
 

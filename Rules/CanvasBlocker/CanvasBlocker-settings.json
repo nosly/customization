@@ -3,7 +3,8 @@
 	"urlSettings": [],
 	"hiddenSettings": {},
 	"expandStatus": {
-		"section_Navigator-API": true
+		"section_Navigator-API": true,
+		"showNotifications": true
 	},
 	"displayHiddenSettings": true,
 	"whiteList": "",
@@ -24,7 +25,7 @@
 	"storePersistentRnd": false,
 	"persistentRndClearIntervalValue": 0,
 	"persistentRndClearIntervalUnit": "days",
-	"lastPersistentRndClearing": 1563776508681,
+	"lastPersistentRndClearing": 1563855271486,
 	"sharePersistentRndBetweenDomains": false,
 	"askOnlyOnce": "individual",
 	"askDenyMode": "block",
@@ -43,10 +44,10 @@
 	"stackList": "",
 	"protectAudio": true,
 	"audioFakeRate": "100",
-	"audioNoiseLevel": "minimal",
+	"audioNoiseLevel": "medium",
 	"useAudioCache": true,
 	"audioUseFixedIndices": true,
-	"audioFixedIndices": "9",
+	"audioFixedIndices": "28",
 	"historyLengthThreshold": 2,
 	"protectWindow": false,
 	"protectDOMRect": true,

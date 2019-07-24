@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1563795885906,
+  "timeStamp": 1563855953896,
   "version": "1.20.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -16,7 +16,7 @@
     "ignoreGenericCosmeticFilters": true,
     "largeMediaSize": 50,
     "parseAllABPHideFilters": true,
-    "prefetchingDisabled": false,
+    "prefetchingDisabled": true,
     "requestLogMaxEntries": 1000,
     "showIconBadge": true,
     "tooltipsDisabled": false,
