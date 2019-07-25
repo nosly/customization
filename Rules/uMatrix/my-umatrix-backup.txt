@@ -1,11 +1,11 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1563870756709,
+  "when": 1564049538855,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
-    "clearBrowserCache": true,
+    "clearBrowserCache": false,
     "clearBrowserCacheAfter": 1440,
     "cloudStorageEnabled": false,
     "collapseBlacklisted": true,
@@ -26,17 +26,8 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "processReferer": false,
-    "selectedHostsFiles": [
-      "dpollock-0",
-      "hphosts",
-      "malware-0",
-      "malware-1",
-      "mvps-0",
-      "plowe-0"
-    ],
-    "selectedRecipeFiles": [
-      "recipes_en-0"
-    ],
+    "selectedHostsFiles": [],
+    "selectedRecipeFiles": [],
     "userHosts": {
       "enabled": false,
       "content": ""
@@ -58,6 +49,7 @@
     "* 163yun.com * allow",
     "* 1717yun.com * allow",
     "* 1st-party * allow",
+    "* 1st-party cookie allow",
     "* 3.cn * allow",
     "* 360buyimg.com * allow",
     "* 47ks.com * allow",
@@ -72,6 +64,7 @@
     "* akamaihd.net * allow",
     "* akamaized.net * allow",
     "* aliapp.org * allow",
+    "* aliapp.org cookie allow",
     "* alibaba.com * allow",
     "* alibaba.com cookie allow",
     "* alicdn.com * allow",
@@ -112,6 +105,7 @@
     "* com-l-iqiyi.com * allow",
     "* com-l-qq.com * allow",
     "* com-l-tudou.com * allow",
+    "* com-t-56.com * allow",
     "* com-t-letv.com * allow",
     "* com-t-youku.com * allow",
     "* com-v-ifeng.com * allow",

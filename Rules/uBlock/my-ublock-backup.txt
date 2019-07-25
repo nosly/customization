@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1563855953896,
+  "timeStamp": 1564049556247,
   "version": "1.20.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -32,14 +32,7 @@
     "ublock-abuse",
     "ublock-unbreak",
     "awrl-0",
-    "adguard-generic",
-    "adguard-mobile",
     "easylist",
-    "adguard-spyware",
-    "easyprivacy",
-    "adguard-annoyance",
-    "adguard-social",
-    "fanboy-thirdparty_social",
     "CHN-1",
     "CHN-0",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt",
