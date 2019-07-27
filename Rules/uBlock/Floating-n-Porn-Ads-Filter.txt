@@ -120,4 +120,14 @@ www.okzyw.com##.right
 zuidazy.net##body > table
 zuidazy.net##.right
 www.1977zy.com##body > table
+www.zuidazy1.net##body > table
+www.zuidazy2.net##body > table
+www.zuidazy3.net##body > table
+www.zuidazy4.net##body > table
+www.zuidazy5.net##body > table
+zuidazy1.net##.right
+zuidazy2.net##.right
+zuidazy3.net##.right
+zuidazy4.net##.right
+zuidazy5.net##.right
 
