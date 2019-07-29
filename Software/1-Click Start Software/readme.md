@@ -13,9 +13,8 @@ Start software at one click
 - 2016.01.19 加入延遲時間
 - 2015.12.28 初建
 
-批處理最小化運行代碼:
+    
+::自动以管理员身份运行bat文件
 
-    @echo off
-    if "%1"=="h" goto begin
-    start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit
-    :begin
+    cd /d %~dp0
+    1 start "" mshta vbscript:createobject("shell.application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
