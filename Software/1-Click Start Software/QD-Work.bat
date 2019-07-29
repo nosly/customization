@@ -1,12 +1,10 @@
 ::2018.11.02
 
 @echo off
-
 ::最小化运行批处理
-::From: http://www.jb51.net/article/7347.htm
-::if "%1"=="h" goto begin
-::start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit
-:begin
+::From: https://blog.csdn.net/jlminghui/article/details/42214255
+%1 %2 
+start /min /i "" "%~nx0" goto min&&goto :eof
 
 ::設置程序文件夾位置
 set dir=D:\Program Files
