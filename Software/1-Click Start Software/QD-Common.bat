@@ -1,14 +1,10 @@
 ::2019.07.23
 
 @echo off
-::最小化运行批处理
-::From: https://blog.csdn.net/jlminghui/article/details/42214255
-%1 %2 
-start /min /i "" "%~nx0" goto min&&goto :eof
 
 ::自动以管理员身份运行bat文件
-cd /d %~dp0
-%1 start "" mshta vbscript:createobject("shell.application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
+::cd /d %~dp0
+::%1 start "" mshta vbscript:createobject("shell.application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
 ::完
 
 ::等待一段时间
