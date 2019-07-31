@@ -1,4 +1,4 @@
-::2019.07.23
+::2019.07.31
 
 @echo off
 
@@ -9,7 +9,7 @@
 
 ::等待一段时间
 @echo off
-choice /t 10 /d y /n >nul
+choice /t 3 /d y /n >nul
 
 ::設置程序文件夾位置
 set dir=D:\Program Files
@@ -36,7 +36,7 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 
 ::等待一段时间
 @echo off
-choice /t 10 /d y /n >nul
+choice /t 3 /d y /n >nul
 
 ::GFW
 start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
@@ -48,6 +48,13 @@ start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
 start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
+
+::等待一段时间
+@echo off
+choice /t 10 /d y /n >nul
+
+::延迟启动
+start "" "%dir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe"
 
 
 ::完成後退出
