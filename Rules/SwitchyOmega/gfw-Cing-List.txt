@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
+||instagram.com
 ||amazonaws.com
 ||cdninstagram.com
 ||baacloud.com
