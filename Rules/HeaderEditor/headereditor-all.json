@@ -167,6 +167,18 @@
 			"action": "redirect",
 			"to": "https://gapis.geekzu.org/g-themes/$1",
 			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "优酷重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/v\\.youku\\.com\\/v_show\\/id_(\\w+?)=*\\.html.*",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://player.youku.com/embed/$1"
 		}
 	],
 	"sendHeader": [
