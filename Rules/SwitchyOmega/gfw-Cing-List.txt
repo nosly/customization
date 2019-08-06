@@ -67,6 +67,7 @@
 ||fasttechcdn.com
 ||github.io
 ||github.com
+||github*.com
 ||wallhaven.cc
 ||statista.com
 ||.ft.com
