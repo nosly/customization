@@ -1,4 +1,4 @@
-::2019.07.31
+::2019.08.08
 
 @echo off
 
@@ -34,6 +34,10 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::Listary六代
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
+::Ditto
+del "D:\Ditto.db"  /s /q
+start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
+
 ::等待一段时间
 @echo off
 choice /t 3 /d y /n >nul
@@ -44,7 +48,6 @@ start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
 
 ::普通啟動
 start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
-start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
 start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
