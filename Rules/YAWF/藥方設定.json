@@ -3,7 +3,7 @@
   "version": {
     "major": "4",
     "minor": "0",
-    "micro": "38"
+    "micro": "39"
   },
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0",
   "config": {
@@ -11,7 +11,7 @@
     "filter_homepage_single_group.group": "whisper",
     "filter_homepage_single_group": false,
     "filter_homepage_multi_group": false,
-    "filter_manually_hide": false,
+    "filter_manually_hide": true,
     "filter_homepage_auto_load": false,
     "filter_homepage_desktop_notify.whitelist": true,
     "filter_homepage_desktop_notify": false,
@@ -221,7 +221,7 @@
     "feed_download_image": false,
     "feed_disable_tag_dialog": false,
     "feed_built_in_video_player.volume": 100,
-    "feed_built_in_video_player.memorize": false,
+    "feed_built_in_video_player.memorize": true,
     "feed_built_in_video_player": false,
     "feed_no_animated_image": false,
     "feed_link_use_url": false,
@@ -278,7 +278,7 @@
     "custom_css.css": "",
     "feed_low_reading_warn": true,
     "clean_icons_bigfun": true,
-    "script_update_whatsnew.last": 38,
+    "script_update_whatsnew.last": 39,
     "filter_Topic": true,
     "filter_Stock": true
   }
