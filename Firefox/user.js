@@ -1,4 +1,4 @@
-//2019.08.02
+//2019.08.14
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -89,11 +89,6 @@ user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
 
 
-
-/**
-*会话相关
-*/
-user_pref("browser.sessionstore.interval", 3600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为1小时
 
 /******************************************************************************************
  *这里是个人设置。
