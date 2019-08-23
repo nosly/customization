@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1565747725584,
+  "timeStamp": 1566551943823,
   "version": "1.21.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -25,12 +25,6 @@
   "selectedFilterLists": [
     "user-filters",
     "ublock-filters",
-    "ublock-annoyances",
-    "ublock-badware",
-    "ublock-experimental",
-    "ublock-privacy",
-    "ublock-abuse",
-    "ublock-unbreak",
     "awrl-0",
     "easylist",
     "CHN-1",
