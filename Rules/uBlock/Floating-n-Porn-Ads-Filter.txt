@@ -131,3 +131,13 @@ zuidazy3.net##.right
 zuidazy4.net##.right
 zuidazy5.net##.right
 
+! 百度系
+tieba.baidu.com###forum_recommend
+tieba.baidu.com##.celebrity.aside_region
+tieba.baidu.com##.app_download_box.aside_region
+tieba.baidu.com##.search_back_box
+tieba.baidu.com###pagelet_frs-aside\/pagelet\/search_back
+tieba.baidu.com###forum-card-banner
+tieba.baidu.com##.j_zyq_mod_friend.zyq_mod_friend.aside_region
+tieba.baidu.com##.topic-search-back-fixed.topic_list_box
+tieba.baidu.com##.u_member
