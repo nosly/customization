@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1566551943823,
-  "version": "1.21.2",
+  "timeStamp": 1567656441074,
+  "version": "1.22.0",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -25,8 +25,16 @@
   "selectedFilterLists": [
     "user-filters",
     "ublock-filters",
+    "ublock-annoyances",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-abuse",
     "awrl-0",
     "easylist",
+    "adguard-spyware",
+    "easyprivacy",
+    "adguard-annoyance",
+    "fanboy-annoyance",
     "CHN-1",
     "CHN-0",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt",
@@ -39,7 +47,7 @@
     "autoUpdateAssetFetchPeriod": 120,
     "autoUpdateDelayAfterLaunch": 180,
     "autoUpdatePeriod": 7,
-    "blockingProfiles": "11101 00001",
+    "blockingProfiles": "11111/#F00 11011/#C0F 11001/#00F 00001",
     "cacheStorageAPI": "unset",
     "cacheStorageCompression": true,
     "cacheControlForFirefox1376932": "no-cache, no-store, must-revalidate",
@@ -55,6 +63,7 @@
     "selfieAfter": 3,
     "strictBlockingBypassDuration": 120,
     "suspendTabsUntilReady": "unset",
+    "updateAssetBypassBrowserCache": false,
     "userResourcesLocation": "unset"
   },
   "whitelist": [

@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1566791088723,
+  "when": 1567656486914,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -26,7 +26,10 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "processReferer": false,
-    "selectedHostsFiles": [],
+    "selectedHostsFiles": [
+      "malware-0",
+      "malware-1"
+    ],
     "selectedRecipeFiles": [],
     "userHosts": {
       "enabled": false,
@@ -43,6 +46,7 @@
     "* * css allow",
     "* * image allow",
     "* * media allow",
+    "* * xhr allow",
     "* 126.net * allow",
     "* 127.net * allow",
     "* 163.com * allow",
@@ -112,6 +116,7 @@
     "* com-l-tudou.com * allow",
     "* com-l-youku.com * allow",
     "* com-ok-pptv.com * allow",
+    "* com-okzy.com * allow",
     "* com-t-56.com * allow",
     "* com-t-iqiyi.com * allow",
     "* com-t-letv.com * allow",
@@ -187,6 +192,7 @@
     "* qihucdn.com * allow",
     "* qiniucdn.com * allow",
     "* qq.com * allow",
+    "* qzamfz.com * allow",
     "* raw.githubusercontent.com * allow",
     "* recaptcha.net * allow",
     "* rstudio.com * allow",
@@ -224,6 +230,7 @@
     "* youku.com * allow",
     "* youtube.com * allow",
     "* ytimg.com * allow",
+    "* zbshuoqi.com * allow",
     "* zuidadianying.com * allow",
     "* zuidajiexi.net * allow",
     "071811.cc 1d1a.com * allow",
@@ -589,6 +596,7 @@
     "kafan.cn ikafan.com * allow",
     "kafan.cn kafan.cn cookie allow",
     "kafan.cn static.geetest.com script allow",
+    "kaiyanapp.com lkme.cc * allow",
     "kankanwu.com newplayer.lsmmr.com script allow",
     "kanzhun.com kanzhun.com cookie allow",
     "kaola.com mm.bst.126.net script allow",
