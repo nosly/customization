@@ -145,4 +145,4 @@ tieba.baidu.com##.j_zyq_mod_friend.zyq_mod_friend.aside_region
 tieba.baidu.com##.topic-search-back-fixed.topic_list_box
 tieba.baidu.com##.u_member
 pan.baidu.com##.JS-nativeupload-tip.nqudJGQ.global-clearfix
-
+baike.baidu.com###J-declare-wrap
