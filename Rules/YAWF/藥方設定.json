@@ -3,9 +3,9 @@
   "version": {
     "major": "4",
     "minor": "0",
-    "micro": "39"
+    "micro": "45"
   },
-  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0",
   "config": {
     "filter_homepage_newest_feeds": true,
     "filter_homepage_single_group.group": "whisper",
@@ -278,8 +278,10 @@
     "custom_css.css": "",
     "feed_low_reading_warn": true,
     "clean_icons_bigfun": true,
-    "script_update_whatsnew.last": 39,
+    "script_update_whatsnew.last": 45,
     "filter_Topic": true,
-    "filter_Stock": true
+    "filter_Stock": true,
+    "custom_css": false,
+    "view_edit_info": true
   }
 }
