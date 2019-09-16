@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1567656441074,
-  "version": "1.22.0",
+  "timeStamp": 1568627646827,
+  "version": "1.22.2",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://filters.adtidy.org/windows/filters/15.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt\nhttps://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "externalLists": "http://tools.yiclear.com/ChinaList2.0.txt\nhttps://filters.adtidy.org/windows/filters/15.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt\nhttps://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -37,6 +37,7 @@
     "fanboy-annoyance",
     "CHN-1",
     "CHN-0",
+    "http://tools.yiclear.com/ChinaList2.0.txt",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
   ],
