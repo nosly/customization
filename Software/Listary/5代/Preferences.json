@@ -17,7 +17,7 @@
          "path": "C:\\Windows\\Notepad.exe",
          "run_as_admin": false,
          "slient": false,
-         "title": "\u7528Notepad\u6253\u5F00",
+         "title": "\u7528\u8BB0\u4E8B\u672C\u6253\u5F00",
          "type": "custom"
       }, {
          "enabled": true,
@@ -154,7 +154,7 @@
    },
    "check_update": {
       "last_check_local_version": "5.00.2843",
-      "last_check_time": "13191735448508085",
+      "last_check_time": "13207137466535331",
       "version_setting": {
          "remind_later": "0",
          "skip": false,
