@@ -1,4 +1,4 @@
-//2019.08.14
+//2019.09.25
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -29,13 +29,6 @@ user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪(一律发送)
 user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
 user_pref("font.name.sans-serif.zh-CN", "Arial");//无衬线字体
 user_pref("font.name.monospace.zh-CN", "Arial");//等宽字体
-
-//内容拦截
-user_pref("browser.contentblocking.category", "custom");//内容拦截: 模式(自定义)
-user_pref("privacy.trackingprotection.pbmode.enabled", false);//内容拦截: 跟踪器(否)
-user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
-user_pref("privacy.trackingprotection.cryptomining.enabled", true);//内容拦截: 挖矿程序(是)
-user_pref("privacy.trackingprotection.fingerprinting.enabled", true);//内容拦截: 数字指纹跟踪程序(是)
 
 
 //*==========标签相关==========*//
@@ -75,6 +68,12 @@ user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
 user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简略,无法离线查看列表)
+
+//画中画
+user_pref("media.videocontrols.picture-in-picture.enabled", true);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.always-show", true);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", true);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.flyout-enabled", true);
 
 
 
