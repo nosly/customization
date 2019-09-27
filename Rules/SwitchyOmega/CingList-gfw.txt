@@ -5,7 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
-||drp.su
+
 ||xvideos.com
 ||instagram.com
 ||amazonaws.com
@@ -160,8 +160,7 @@
 ||books.google.com
 ||userstyles.org
 
-!tvc-mall
-||tvc-mall.com
+
 
 !不翻
 @@||kiwivm.64clouds.com
