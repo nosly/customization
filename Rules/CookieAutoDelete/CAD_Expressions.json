@@ -1,0 +1,28 @@
+{
+  "default": [
+    {
+      "expression": "github.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "vBkcB2sKh",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "google.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "opEUQVA1j",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "youtube.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "V29BpGLJt",
+      "cleanLocalStorage": true
+    }
+  ]
+}
