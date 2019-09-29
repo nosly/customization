@@ -1,6 +1,86 @@
 {
   "default": [
     {
+      "expression": "*.baidu.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "C8UqF0IQt",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.bilibili.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "QWnfPIqhu",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.bilibili.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "LXV7UoYTC",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.chouti.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "VwC4KC3CU",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.dida365.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "pbL_fTOu4",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.douban.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "mfIyF9aSO",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.gezhongshu.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "1Zu2AKqEo",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.github.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "cYq_fSmei",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.google.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "bw7W60r54",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.greasyfork.org",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "RLe2g12BZ",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.kafan.cn",
       "listType": "WHITE",
       "storeId": "default",
@@ -17,75 +97,51 @@
       "cleanLocalStorage": true
     },
     {
+      "expression": "*.passport.weibo.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "ccNAc5XZF",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.sina.com.cn",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "9VWptjhe1",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.weibo.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "_lUwbt6ub",
+      "id": "BIfjL6g8R",
       "cleanLocalStorage": true
     },
     {
-      "expression": "dida365.com",
+      "expression": "*.weibo.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "tFMA1qHF3",
+      "id": "uQIY0whgW",
       "cleanLocalStorage": true
     },
     {
-      "expression": "github.com",
+      "expression": "*.youtube.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "vBkcB2sKh",
+      "id": "34s6c0KoA",
       "cleanLocalStorage": true
     },
     {
-      "expression": "google.com",
+      "expression": "*.zhihu.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "opEUQVA1j",
-      "cleanLocalStorage": true
-    },
-    {
-      "expression": "greasyfork.org",
-      "listType": "WHITE",
-      "storeId": "default",
-      "cookieNames": [],
-      "id": "3Kkv4jCNb",
-      "cleanLocalStorage": true
-    },
-    {
-      "expression": "sina.com.cn",
-      "listType": "WHITE",
-      "storeId": "default",
-      "cookieNames": [],
-      "id": "HS2sj5fl0",
-      "cleanLocalStorage": true
-    },
-    {
-      "expression": "weibo.com",
-      "listType": "WHITE",
-      "storeId": "default",
-      "cookieNames": [],
-      "id": "iTRc-H3Fe",
-      "cleanLocalStorage": true
-    },
-    {
-      "expression": "youtube.com",
-      "listType": "WHITE",
-      "storeId": "default",
-      "cookieNames": [],
-      "id": "V29BpGLJt",
-      "cleanLocalStorage": true
-    },
-    {
-      "expression": "zhihu.com",
-      "listType": "WHITE",
-      "storeId": "default",
-      "cookieNames": [],
-      "id": "--WIT9SGi",
+      "id": "1Nwa2jX_c",
       "cleanLocalStorage": true
     }
   ]
