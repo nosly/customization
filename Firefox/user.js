@@ -1,4 +1,4 @@
-//2019.09.25
+//2019.09.29
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -23,6 +23,8 @@ user_pref("browser.shell.checkDefaultBrowser", false);//总是检查是否为默
 user_pref("browser.search.update", false);//禁用搜索引擎自动更新
 user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
 user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪(一律发送)
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);//在您浏览时推荐扩展(否)
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);//在您浏览时推荐新功能(否)
 
 
 //字体语言编码
