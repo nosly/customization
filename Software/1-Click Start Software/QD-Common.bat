@@ -28,7 +28,7 @@ start "" "%dir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfold
 del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
-
+::启动程序
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 
 ::Listary六代
