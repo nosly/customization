@@ -3,7 +3,7 @@
   "version": {
     "major": "4",
     "minor": "0",
-    "micro": "45"
+    "micro": "47"
   },
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0",
   "config": {
@@ -278,10 +278,12 @@
     "custom_css.css": "",
     "feed_low_reading_warn": true,
     "clean_icons_bigfun": true,
-    "script_update_whatsnew.last": 45,
+    "script_update_whatsnew.last": 47,
     "filter_Topic": true,
     "filter_Stock": true,
     "custom_css": false,
-    "view_edit_info": true
+    "view_edit_info": true,
+    "show_vote_result": true,
+    "filter_image_tag": true
   }
 }
