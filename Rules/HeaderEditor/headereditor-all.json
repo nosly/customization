@@ -179,6 +179,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://player.youku.com/embed/$1"
+		},
+		{
+			"enable": true,
+			"name": "宽带山简版>>完整版",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/m\\.kdslife\\.com\\/index\\.php(.*)&tid=(\\d+)",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://club.kdslife.com/t_$2.html",
+			"group": "未分组"
 		}
 	],
 	"sendHeader": [
