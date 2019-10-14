@@ -43,8 +43,8 @@ start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
 choice /t 3 /d y /n >nul
 
 ::GFW
-start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
-::start "" "%dir%\CingFox\Software\GFW\v2ray-windows-64\v2rayN.exe"
+::start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
+start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
 ::普通啟動
 start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
