@@ -75,8 +75,11 @@ user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简
 user_pref("media.videocontrols.picture-in-picture.enabled", true);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.always-show", true);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", true);
-user_pref("media.videocontrols.picture-in-picture.video-toggle.flyout-enabled", true);
 
+
+//去除附加组中的"推荐扩展"
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+user_pref("extensions.htmlaboutaddons.discover.enabled", false);
 
 
 //*==========Firefox设置==========*//
@@ -99,7 +102,7 @@ user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.ifanr.com/\",\"title\":\"爱范儿\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.ifanr.com/\",\"title\":\"爱范儿\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
