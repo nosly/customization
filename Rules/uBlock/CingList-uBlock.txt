@@ -16,13 +16,6 @@
 @@||atm.youku.com/v$object-subrequest
 ||toushibao.com/
 
-！云之家
-www.yunzhijia.com##.transfer_files
-www.yunzhijia.com###\35 b10fdabe4b09080ad0c66af-XT-10001
-www.yunzhijia.com##.pubacc-fold
-www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-10000
-www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-d69723d2-f788-40a5-bcc4-9d3d165bcf60
-www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-f0055c19-7c70-4b93-83bb-390a4652ba5a
 
 
 ! 网易
@@ -96,14 +89,14 @@ statista.com###caRequestPopup
 statista.com##.modal-dialog--caRequest.modal-dialog
 
 ! Porn.com
-www.porn.com##.player-right
+porn.com##.player-right
 
 ! pornhub.com
-www.pornhub.com###hotVideosSection > .alpha
-www.pornhub.com###hotVideosSection > li:nth-of-type(1)
-www.pornhub.com##.abovePlayer
-www.pornhub.com###js-networkBar
-www.pornhub.com##.alpha.sniperModeEngaged
+pornhub.com###hotVideosSection > .alpha
+pornhub.com###hotVideosSection > li:nth-of-type(1)
+pornhub.com##.abovePlayer
+pornhub.com###js-networkBar
+pornhub.com##.alpha.sniperModeEngaged
 
 
 ! 天涯
@@ -111,23 +104,23 @@ tianya.cn###js-bc-shang
 tianya.cn##.scroll-btn
 
 ! Youtube
-www.youtube.com###contentWrapper > .ytd-popup-container.style-scope
+youtube.com###contentWrapper > .ytd-popup-container.style-scope
 
 ! 360
 yunpan.360.cn##.redpacket
 
 
 ! 资源网
-www.okzyw.com##body > table
-www.okzyw.com##.right
+okzyw.com##body > table
+okzyw.com##.right
 zuidazy.net##body > table
 zuidazy.net##.right
-www.1977zy.com##body > table
-www.zuidazy1.net##body > table
-www.zuidazy2.net##body > table
-www.zuidazy3.net##body > table
-www.zuidazy4.net##body > table
-www.zuidazy5.net##body > table
+1977zy.com##body > table
+zuidazy1.net##body > table
+zuidazy2.net##body > table
+zuidazy3.net##body > table
+zuidazy4.net##body > table
+zuidazy5.net##body > table
 zuidazy1.net##.right
 zuidazy2.net##.right
 zuidazy3.net##.right
@@ -135,6 +128,9 @@ zuidazy4.net##.right
 zuidazy5.net##.right
 
 ! 百度系
+baidu.com##.bd-aside
+baidu.com##.app-download
+baidu.com##.app-icon.app-feedback.icon-feedback.icon
 tieba.baidu.com###forum_recommend
 tieba.baidu.com##.celebrity.aside_region
 tieba.baidu.com##.app_download_box.aside_region
@@ -144,5 +140,4 @@ tieba.baidu.com###forum-card-banner
 tieba.baidu.com##.j_zyq_mod_friend.zyq_mod_friend.aside_region
 tieba.baidu.com##.topic-search-back-fixed.topic_list_box
 tieba.baidu.com##.u_member
-pan.baidu.com##.JS-nativeupload-tip.nqudJGQ.global-clearfix
 baike.baidu.com###J-declare-wrap
