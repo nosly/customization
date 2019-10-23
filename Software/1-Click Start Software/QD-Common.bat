@@ -35,8 +35,7 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
 ::Ditto
-del "D:\Ditto.db"  /s /q
-start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
+start "" "%dir%\Ditto\Ditto.exe"
 
 ::等待一段时间
 @echo off
