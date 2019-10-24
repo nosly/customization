@@ -1,4 +1,4 @@
-::2019.08.08
+::2019.10.24
 
 @echo off
 
@@ -35,7 +35,7 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
 ::Ditto
-start "" "%dir%\Ditto\Ditto.exe"
+
 
 ::等待一段时间
 @echo off
@@ -46,17 +46,18 @@ choice /t 3 /d y /n >nul
 start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
 ::普通啟動
-start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
+start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
-start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
+start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
+start "" "%dir%\Ditto\Ditto.exe"
 
 ::等待一段时间
 @echo off
 choice /t 10 /d y /n >nul
 
 ::延迟启动
-start "" "%dir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe"
+start "" "%dir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe" /min
 
 
 ::完成後退出
