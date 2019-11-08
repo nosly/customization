@@ -57,7 +57,7 @@ start "" "%dir%\Ditto\Ditto.exe"
 choice /t 10 /d y /n >nul
 
 ::延迟启动
-start "" "%dir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe" /min
+start "" "%dir%\Tencent\WeiyunSync\Bin\weiyunsync.exe" /min
 
 
 ::完成後退出
