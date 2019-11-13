@@ -2,6 +2,7 @@
 "policies": {
 "FlashPlugin": {
 "Allow": [
+"http://www.duowan.com",
 "https://pan.baidu.com",
 "http://www.okzyw.com",
 "http://ic.sjlpj.cn",

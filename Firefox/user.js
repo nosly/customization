@@ -1,4 +1,4 @@
-//2019.09.29
+//2019.10.21
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -49,6 +49,7 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 
 //*==========网络协议问题==========*//
 user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
+user_pref("network.proxy.socks_remote_dns", true);//远程DNS检查
 
 
 //*==========FX其它类==========*//
@@ -70,6 +71,8 @@ user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
 user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简略,无法离线查看列表)
+user_pref("browser.sessionstore.interval", 600000);//(单位: ms)限制recovery.js文件的写入操作: 默认15s, 改为10分钟
+
 
 //画中画
 user_pref("media.videocontrols.picture-in-picture.enabled", true);
