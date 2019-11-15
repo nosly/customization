@@ -78,6 +78,7 @@ hbr.org##.backdrop-darker > .row
 ! 京东
 jd.com##.side__ad.side__ad-left
 jd.com##.side__ad.side__ad-right
+jd.com##.activity-top
 
 
 ! 睿派克
