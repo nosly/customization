@@ -97,6 +97,14 @@
       "cleanLocalStorage": true
     },
     {
+      "expression": "*.nga.cn",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "KOKRWSuxe",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.passport.weibo.com",
       "listType": "WHITE",
       "storeId": "default",
@@ -105,11 +113,27 @@
       "cleanLocalStorage": true
     },
     {
+      "expression": "*.pornhub.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "kP_iURMkJ",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.sina.com.cn",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
       "id": "9VWptjhe1",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.vivo.com.cn",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "zsCcj1dk3",
       "cleanLocalStorage": true
     },
     {
