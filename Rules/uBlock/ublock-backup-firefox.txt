@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1571889790704,
-  "version": "1.22.4",
+  "timeStamp": 1574395077613,
+  "version": "1.23.0",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -57,8 +57,11 @@
     "debugScriptlets": false,
     "debugScriptletInjector": false,
     "disableWebAssembly": false,
+    "extensionUpdateForceReload": false,
     "ignoreRedirectFilters": false,
     "ignoreScriptInjectFilters": false,
+    "filterAuthorMode": false,
+    "loggerPopupType": "popup",
     "manualUpdateAssetFetchPeriod": 500,
     "popupFontSize": "unset",
     "requestJournalProcessPeriod": 1000,
