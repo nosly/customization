@@ -797,6 +797,20 @@
 				"name": "access-control-allow-origin",
 				"value": "*"
 			}
+		},
+		{
+			"enable": true,
+			"name": "允许 M3U8、TS、MP4 等文件跨域",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.(m3u8|ts|mp3|mp4|flv)(?=\\?|$)",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
 		}
 	]
 }
