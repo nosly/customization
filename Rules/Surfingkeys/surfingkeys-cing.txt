@@ -1,2 +1,0 @@
-//秘迹搜
-addSearchAliasX('j', 'mijisou', 'https://mijisou.com/search?q=');
