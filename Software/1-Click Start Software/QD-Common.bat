@@ -28,6 +28,9 @@ start "" "%dir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfold
 del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
 del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
+::等待一段时间
+@echo off
+choice /t 3 /d y /n >nul
 ::启动程序
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 
