@@ -1,4 +1,4 @@
-//2019.10.21
+//2019.12.03
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -50,7 +50,9 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 //*==========网络协议问题==========*//
 user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
 user_pref("network.proxy.socks_remote_dns", true);//远程DNS检查
-
+user_pref("network.trr.mode", 2);//DoH模式: 优先DoH, 常规DNS作备用
+user_pref("network.trr.custom_uri", "https://dns.google/dns-query");//DoH自定义查询地址
+user_pref("network.trr.bootstrapAddress", "8.8.8.8");//DoH IP
 
 //*==========FX其它类==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
