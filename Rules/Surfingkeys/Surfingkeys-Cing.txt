@@ -1,3 +1,0 @@
-
-//mijisouËÑË÷
-addSearchAliasX('j', 'ÃØ¼£ËÑ', 'https://mijisou.com/?q=');
