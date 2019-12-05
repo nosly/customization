@@ -1,0 +1,4 @@
+//ÅÅ³ı°´¼ü
+unmap(['?', 'b'], [domain: /5upm\.com/i])
+//mijisouËÑË÷
+addSearchAliasX('j', 'ÃØ¼£ËÑ', 'https://mijisou.com/?q=');
