@@ -1,4 +1,4 @@
-//2019.12.03
+//2019.12.04
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -9,7 +9,7 @@
 # Note:
 - OurSticky扩展导致百度网盘离线下载添加BT种子时窗口无法弹出
 - Don't Fuck with my Scrolling脚本会导致某些直播视频无法加载
-- 自带内容拦截有卡网的情况
+- surfingkeys扩展导致firefox72页面不断重载
  *************************************************************************************/
 
 /******************************************************************************************
@@ -53,6 +53,8 @@ user_pref("network.proxy.socks_remote_dns", true);//远程DNS检查
 user_pref("network.trr.mode", 2);//DoH模式: 优先DoH, 常规DNS作备用
 user_pref("network.trr.custom_uri", "https://dns.google/dns-query");//DoH自定义查询地址
 user_pref("network.trr.bootstrapAddress", "8.8.8.8");//DoH IP
+user_pref("browser.cache.offline.enable", false);//取消脱机的高速缓冲数据
+
 
 //*==========FX其它类==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
