@@ -25,6 +25,14 @@
       "cleanLocalStorage": true
     },
     {
+      "expression": "*.cctv.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "sIFqp4Twt",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.chouti.com",
       "listType": "WHITE",
       "storeId": "default",
@@ -54,6 +62,14 @@
       "storeId": "default",
       "cookieNames": [],
       "id": "1Zu2AKqEo",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.gitee.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "-hCQLhLQ1",
       "cleanLocalStorage": true
     },
     {
