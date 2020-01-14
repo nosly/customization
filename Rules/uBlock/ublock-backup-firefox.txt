@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1578045623465,
+  "timeStamp": 1578967120733,
   "version": "1.24.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -25,10 +25,10 @@
   "selectedFilterLists": [
     "user-filters",
     "ublock-filters",
-    "ublock-annoyances",
     "ublock-badware",
     "ublock-privacy",
     "ublock-abuse",
+    "ublock-unbreak",
     "awrl-0",
     "adguard-generic",
     "easylist",
@@ -38,6 +38,7 @@
     "adguard-social",
     "fanboy-thirdparty_social",
     "fanboy-cookiemonster",
+    "ublock-annoyances",
     "CHN-1",
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
