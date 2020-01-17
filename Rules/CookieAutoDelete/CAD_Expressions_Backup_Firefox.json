@@ -97,6 +97,14 @@
       "cleanLocalStorage": true
     },
     {
+      "expression": "*.jianguoyun.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "yW2IoC8uW",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.kafan.cn",
       "listType": "WHITE",
       "storeId": "default",
@@ -137,11 +145,27 @@
       "cleanLocalStorage": true
     },
     {
+      "expression": "*.sensorsdata.cn",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "duCEuaHmZ",
+      "cleanLocalStorage": true
+    },
+    {
       "expression": "*.sina.com.cn",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
       "id": "9VWptjhe1",
+      "cleanLocalStorage": true
+    },
+    {
+      "expression": "*.thepaper.cn",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "ng1osV63l",
       "cleanLocalStorage": true
     },
     {
