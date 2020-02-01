@@ -43,9 +43,9 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 choice /t 3 /d y /n >nul
 
 ::GFW
-start "" "%dir%\CingFox\Software\GFW\SS\Shadowsocks.exe"
+::start "" "%dir%\CingFox\Software\GFW\SS\Shadowsocks.exe"
 ::start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
-::start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
+start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
 ::普通啟動
 start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
