@@ -1,4 +1,4 @@
-//2019.12.04
+//2020.02.02
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -32,6 +32,15 @@ user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
 user_pref("font.name.sans-serif.zh-CN", "Arial");//无衬线字体
 user_pref("font.name.monospace.zh-CN", "Arial");//等宽字体
 
+//自带跟踪保护
+user_pref("browser.contentblocking.enabled", false);//总开关：master switch for all content blocking features (includes tracking protection, but excludes tracking annotations)
+user_pref("browser.contentblocking.category", "custom");//类型：自定义保护
+user_pref("privacy.trackingprotection.enabled", false);//to enable TP globally
+user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
+user_pref("privacy.trackingprotection.cryptomining.enabled", false);//跟踪性内容
+user_pref("privacy.trackingprotection.pbmode.enabled", false);//加密货币挖矿程序
+user_pref("privacy.trackingprotection.fingerprinting.enabled", false);//数字指纹跟踪
+
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
@@ -56,6 +65,26 @@ user_pref("network.trr.bootstrapAddress", "8.8.8.8");//DoH IP
 user_pref("browser.cache.offline.enable", false);//取消脱机的高速缓冲数据
 
 
+//画中画
+user_pref("media.videocontrols.picture-in-picture.enabled", true);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.always-show", true);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", true);
+
+
+//去除附加组中的"推荐扩展"
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+user_pref("extensions.htmlaboutaddons.discover.enabled", false);
+
+
+//书签相关
+user_pref("browser.bookmarks.autoExportHTML", true);//退出时自动备份书签html文件
+user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
+user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
+
+
+//插件
+user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
+
 //*==========FX其它类==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
@@ -78,28 +107,6 @@ user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简
 user_pref("browser.sessionstore.interval", 600000);//(单位: ms)限制recovery.js文件的写入操作: 默认15s, 改为10分钟
 
 
-//画中画
-user_pref("media.videocontrols.picture-in-picture.enabled", true);
-user_pref("media.videocontrols.picture-in-picture.video-toggle.always-show", true);
-user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", true);
-
-
-//去除附加组中的"推荐扩展"
-user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
-user_pref("extensions.htmlaboutaddons.discover.enabled", false);
-
-
-//*==========Firefox设置==========*//
-//书签相关
-user_pref("browser.bookmarks.autoExportHTML", true);//退出时自动备份书签html文件
-user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
-user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
-
-
-//插件
-user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
-
-
 
 /******************************************************************************************
  *这里是个人设置。
@@ -109,7 +116,7 @@ user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.ifanr.com/\",\"title\":\"爱范儿\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.36kr.com/\",\"title\":\"36KR\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
