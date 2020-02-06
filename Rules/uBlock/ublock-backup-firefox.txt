@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1578967120733,
+  "timeStamp": 1580981209358,
   "version": "1.24.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -31,6 +31,7 @@
     "ublock-unbreak",
     "awrl-0",
     "adguard-generic",
+    "adguard-mobile",
     "easylist",
     "adguard-spyware",
     "easyprivacy",
