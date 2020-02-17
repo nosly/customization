@@ -129,6 +129,9 @@ zuidazy4.net##.right
 zuidazy5.net##.right
 
 ! 百度系
+pan.baidu.com##.button-box-bg
+pan.baidu.com##.top-right-box
+pan.baidu.com##.privilege-box
 baidu.com##.bd-aside
 baidu.com##.app-download
 baidu.com##.app-icon.app-feedback.icon-feedback.icon
